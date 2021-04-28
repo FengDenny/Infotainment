@@ -28,12 +28,12 @@ struct MovieImageView: View {
                 }// end if
                 
             }// end ZStack
-            .aspectRatio(16/9,contentMode: .fit)
+            .aspectRatio(1,contentMode: .fit)
             .cornerRadius(8)
             .shadow(radius: 4 )
-            Text(movie.title).font(.title2).fontWeight(.bold)
+            Text(movie.overview).font(.subheadline).fontWeight(.medium).padding(10)
         }//end VStack
-        .lineLimit(/*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
+        .lineLimit(3)
         .onAppear{
             self.imageLoader.loadImage(with: self.movie.backdropURL)
         }// end onAppear
@@ -43,6 +43,6 @@ struct MovieImageView: View {
 
 struct MovieImageView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieImageView(movie: Movie.latestMovie).previewLayout(.fixed(width: 500, height: 400))
+        MovieImageView(movie: Movie.latestMovie).previewLayout(.fixed(width: 500, height: 500))
     }
 }
