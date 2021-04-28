@@ -18,7 +18,8 @@ class MovieAPIModel: FetchMovieModel {
        private let jsonDecoder = Utility.jsonDecoder
     
     
-    func fetchAllMovies(from endpoint: MovieListEndpoint, completion: @escaping (Result<MovieModel, MovieError>) -> ()) {
+    func fetchAllMovies(from endpoint: MovieListEndpoint, completion: @escaping (Result<MovieModel, MovieError>) -> ())
+    {
         guard let url = URL(string: "\(baseAPIURL)/movie/\(endpoint.rawValue)") else {
                    completion(.failure(.invalidEndpoint))
                    return
@@ -26,7 +27,9 @@ class MovieAPIModel: FetchMovieModel {
                self.loadURLAndDecode(url: url, completion: completion)
     }
     
-    func fetchSingleMovie(id: Int, completion: @escaping (Result<Movie, MovieError>) -> ()) {
+
+    func fetchSingleMovie(id: Int, completion: @escaping (Result<Movie, MovieError>) -> ())
+    {
         guard let url = URL(string: "\(baseAPIURL)/movie/\(id)") else {
                    completion(.failure(.invalidEndpoint))
                    return
@@ -36,7 +39,7 @@ class MovieAPIModel: FetchMovieModel {
                ], completion: completion)
     }
     
-    func searchMovie(query: String, completion: @escaping (Result<MovieModel, MovieError>) -> ()) {
+    func searchMovie(query: String, completion: @escaping (Result<MovieModel, MovieError>) -> ()){
         guard let url = URL(string: "\(baseAPIURL)/search/movie") else {
                    completion(.failure(.invalidEndpoint))
                    return
