@@ -23,13 +23,13 @@ class Utility {
     }()
     
     
-    static private let yearFormatter: DateFormatter = {
+    static  let yearFormatter: DateFormatter = {
            let formatter = DateFormatter()
            formatter.dateFormat = "yyyy"
            return formatter
        }()
        
-       static private let durationFormatter: DateComponentsFormatter = {
+       static  let durationFormatter: DateComponentsFormatter = {
            let formatter = DateComponentsFormatter()
            formatter.unitsStyle = .full
            formatter.allowedUnits = [.hour, .minute]
