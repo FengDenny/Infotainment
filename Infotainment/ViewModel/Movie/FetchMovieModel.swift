@@ -9,12 +9,10 @@ import Foundation
 
 protocol FetchMovieModel{
     
-    
     func fetchAllMovies(from endpoint: MovieListEndpoint, completion: @escaping (Result<MovieModel, MovieError>) -> ())
-       func fetchSingleMovie(id: Int, completion: @escaping (Result<Movie, MovieError>) -> ())
-       func searchMovie(query: String, completion: @escaping (Result<MovieModel, MovieError>) -> ())
+    func fetchSingleMovie(id: Int, completion: @escaping (Result<Movie, MovieError>) -> ())
+    func searchMovie(query: String, completion: @escaping (Result<MovieModel, MovieError>) -> ())
 }
-
 
 enum MovieListEndpoint: String, CaseIterable, Identifiable {
     
