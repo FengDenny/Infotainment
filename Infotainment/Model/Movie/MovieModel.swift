@@ -24,86 +24,78 @@ struct Movie: Decodable, Identifiable {
     let releaseDate: String?
     
    
-    let genres: [Genre]?
-    let credits: Credits?
-    let videos:Video?
-    
+    let genres:[Genre]?
+    let credits:Credits?
+    let videos: Video?
 
-    var backdropURL: URL {
-        return URL(string: "https://image.tmdb.org/t/p/w500\(backdropPath ?? "")")!
-    }
-    
-    var posterPathURL: URL{
-        return URL(string: "https://image.tmdb.org/t/p/w500\(posterPath ?? "")")!
-    }
-    
     var genreText: String {
-        genres?.first?.name ?? "n/a"
-    }
+           genres?.first?.name ?? "n/a"
+       }
     
-    var ratingText: String{
-        
+    var backdropURL: URL {
+          return URL(string: "https://image.tmdb.org/t/p/w500\(backdropPath ?? "")")!
+      }
+      
+      var posterPathURL: URL{
+          return URL(string: "https://image.tmdb.org/t/p/w500\(posterPath ?? "")")!
+      }
+    
+    var rating: String
+    {
         let rating = Int(voteAverage)
+     
         return "\(rating)"
     }
     
-    var scoreText: String{
-        guard ratingText.count > 0 else{
+    var score: String{
+        guard rating.count > 0 else{
             return "n/a"
         }
-        return "\(ratingText.count)/10"
+        return "\(rating)/10"
     }
     
-    var yearText: String{
+    var yearReleaseDate: String {
         guard let releaseDate = self.releaseDate, let date = Utility.dateFormatter.date(from: releaseDate) else{
             return "n/a"
         }
         return Utility.yearFormatter.string(from: date)
     }
     
-    var durationText: String{
+    var duration: String {
         guard let runTime = self.runtime, runTime > 0 else {
-            return "n/a"
-        }
-        return Utility.durationFormatter.string(from: TimeInterval(runTime) * 60 ) ?? "n/a"
+                   return "n/a"
+               }
+               return Utility.durationFormatter.string(from: TimeInterval(runTime) * 60 ) ?? "n/a"
     }
     
     
-    var cast:[Cast]?{
-        credits?.cast
-    }
-
-    var crew: [Crew]?
-    {
-        credits?.crew
-    }
-    
-    var director: [Crew]?
-    {
-        crew?.filter{$0.job.lowercased() == "director"}
-    }
-    
-    var producers: [Crew]?
-    {
-        crew?.filter{$0.job.lowercased() == "producer"}
-    }
     
     
-    var screenWriters: [Crew]?
-    {
-        crew?.filter{$0.job.lowercased() == "story"}
-    }
     
     var youtubeTrailers: [MovieTrailer]?
-    {
-        videos?.results.filter{$0.youtubeURL != nil}
+       {
+           videos?.results.filter{$0.youtubeURL != nil}
+       }
+    
+    var genre:String{
+        genres?.first?.name ?? "n/a"
     }
     
+    var cast:[Cast]?{
+         credits?.cast
+    }
+    
+    var crew:[Crew]?{
+         credits?.crew
+    }
+    
+
+   
+
 }
 
 
-
-
+//MARK: JSON Parsing
 
 struct Genre: Decodable{
     let name:String
@@ -115,6 +107,7 @@ struct Credits:Decodable
     let cast: [Cast]
     let crew:[Crew]
 }
+
 
 struct Cast: Decodable, Identifiable
 {
@@ -131,23 +124,27 @@ struct Crew: Decodable, Identifiable
 }
 
 
+
 struct Video : Decodable{
     let results:[MovieTrailer]
 }
 
 
+
 struct MovieTrailer: Decodable, Identifiable
+
 {
-    let id:String
+    let id: String
     let key: String
     let name: String
     let site: String
     
     var youtubeURL: URL?{
-        guard site == "YouTube" else{
-            
+        guard site == "YouTube" else
+        {
             return nil
         }
         return URL(string: "https://youtube.com/watch?v=\(key)")
     }
 }
+
