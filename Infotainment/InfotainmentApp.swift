@@ -11,7 +11,7 @@ import SwiftUI
 struct InfotainmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
