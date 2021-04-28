@@ -32,7 +32,7 @@ class MovieListViewModel: ObservableObject {
             self.isLoading = false
             switch result{
             case .success(let response):
-                self.movies = response.results
+            self.movies = response.results
             case .failure(let error):
             self.error = error as NSError
             }
