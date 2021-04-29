@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MovieListView: View {
+struct MoviesShowsHomeScreenView: View {
     
 //    MARK: @ObservedObject
 //  allows instances of this class to be used inside views, so that when important changes happen the view will reload.
@@ -28,7 +28,7 @@ struct MovieListView: View {
                 {
                     Group{
                     if( nowPlaying.movies != nil){
-                        MovieImageCarouselView(title: "Latest", movies: nowPlaying.movies!)
+                        MovieScrollHStackView(title: "Latest", movies: nowPlaying.movies!)
                     }else{
                         LoadingView(isLoading: nowPlaying.isLoading, error: self.nowPlaying.error){
                             self.nowPlaying.loadMovies(with:.topRated)
@@ -48,6 +48,6 @@ struct MovieListView: View {
 
 struct MovieListView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieListView()
+        MoviesShowsHomeScreenView()
     }
 }

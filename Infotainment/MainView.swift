@@ -16,7 +16,7 @@ struct MainView: View {
     var body: some View {
         
         TabView{
-            MovieListView()
+            MoviesShowsHomeScreenView()
                 .tabItem {
                     Image(systemName: "house.circle")
                     Text("Home")
