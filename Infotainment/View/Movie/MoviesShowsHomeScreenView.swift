@@ -31,17 +31,34 @@ struct MoviesShowsHomeScreenView: View {
                         MovieScrollHStackView(title: "Latest", movies: nowPlaying.movies!)
                     }else{
                         LoadingView(isLoading: nowPlaying.isLoading, error: self.nowPlaying.error){
-                            self.nowPlaying.loadMovies(with:.topRated)
+                            self.nowPlaying.loadMovies(with:.nowPlaying)
                         }
-                    }
+                        
+                    }// end else
+                        
                     } //End nowPlaying Group
+                    
+                    Group{
+                    if( upcoming.movies != nil){
+                        MovieImageScrollHStackView(title: "Upcoming ", movies: upcoming.movies!)
+                    }else{
+                        LoadingView(isLoading: upcoming.isLoading, error: self.upcoming.error){
+                            self.upcoming.loadMovies(with:.upcoming)
+                        }
+                        
+                        
+                    }// end else
+                        
+                } //End topRated Group
+                    
                 } // End LazyVStack
                 
             }// End ScrollvIEW
-            
+            .navigationBarTitle("Infotainment", displayMode: .inline)
         }// End NavigationView
         .onAppear{
-            self.nowPlaying.loadMovies(with: .upcoming)
+            self.nowPlaying.loadMovies(with: .nowPlaying)
+            self.upcoming.loadMovies(with: .upcoming)
         }
     }
 }
