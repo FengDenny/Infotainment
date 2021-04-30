@@ -21,16 +21,19 @@ struct MovieDetailView: View {
                 if movieDetailState.movie != nil{
                     MovieDetailLazyView(movies: self.movieDetailState.movie!)
                         .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-                }
+                }// end if
                 
-            }.offset(y:10)
+            } // end ZStack
+            .offset(y:10)
             .navigationBarTitle(movieDetailState.movie?.title ?? "")
+//            MARK: CHANGE COLOR
+            .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
             .onAppear{
                 self.movieDetailState.loadMovie(id: self.movieID)
             
-            }
+            }// end opAppear
             
-        }
+        }// end body
     }
 
 
