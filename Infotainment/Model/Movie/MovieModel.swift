@@ -58,14 +58,14 @@ struct Movie: Decodable, Identifiable {
         guard let releaseDate = self.releaseDate, let date = Utility.dateFormatter.date(from: releaseDate) else{
             return "n/a"
         }
-        return Utility.yearFormatter.string(from: date)
+        return Utility.dateFormatter.string(from: date)
     }
     
     var duration: String {
         guard let runTime = self.runtime, runTime > 0 else {
-                   return "n/a"
+            return "\(self.runtime!)"
                }
-               return Utility.durationFormatter.string(from: TimeInterval(runTime) * 60 ) ?? "n/a"
+               return Utility.durationFormatter.string(from: TimeInterval(runTime) * 60 ) ?? "\(runTime)"
     }
     
     
