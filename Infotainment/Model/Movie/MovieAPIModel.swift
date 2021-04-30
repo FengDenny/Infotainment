@@ -24,7 +24,9 @@ class MovieAPIModel: FetchMovieModel {
                    completion(.failure(.invalidEndpoint))
                    return
                }
-               self.loadURLAndDecode(url: url, completion: completion)
+        self.loadURLAndDecode(url: url, params:
+                                ["sort_by":"primary_release_date.asc", "primary_release_year":"2021", "page":"2"],
+                                completion: completion)
     }
     
 
