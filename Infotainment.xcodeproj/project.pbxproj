@@ -16,10 +16,11 @@
 		552879F0263B462400B3A8F8 /* TVShowTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879EF263B462400B3A8F8 /* TVShowTabView.swift */; };
 		552879F3263B46F700B3A8F8 /* TVShowScrollVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879F2263B46F700B3A8F8 /* TVShowScrollVStackView.swift */; };
 		552879F6263B473000B3A8F8 /* TVShowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879F5263B473000B3A8F8 /* TVShowCardView.swift */; };
-		552879FC263B537E00B3A8F8 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879FB263B537E00B3A8F8 /* FontExtension.swift */; };
+		552879FC263B537E00B3A8F8 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879FB263B537E00B3A8F8 /* Font+Extension.swift */; };
 		55287A09263BAC2D00B3A8F8 /* MovieImageScrollHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55287A08263BAC2D00B3A8F8 /* MovieImageScrollHStackView.swift */; };
 		55287A0C263BAC4500B3A8F8 /* MovieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55287A0B263BAC4500B3A8F8 /* MovieImageView.swift */; };
-		55287A10263BDE7E00B3A8F8 /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55287A0F263BDE7E00B3A8F8 /* AnimationExtension.swift */; };
+		55287A10263BDE7E00B3A8F8 /* Animation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55287A0F263BDE7E00B3A8F8 /* Animation+Extension.swift */; };
+		55287A14263C81EF00B3A8F8 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55287A13263C81EF00B3A8F8 /* Navigation.swift */; };
 		55B8DF8E2638E59C0040F40C /* InfotainmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B8DF8D2638E59C0040F40C /* InfotainmentApp.swift */; };
 		55B8DF902638E59C0040F40C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B8DF8F2638E59C0040F40C /* MainView.swift */; };
 		55B8DF922638E5A20040F40C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B8DF912638E5A20040F40C /* Assets.xcassets */; };
@@ -60,10 +61,11 @@
 		552879F2263B46F700B3A8F8 /* TVShowScrollVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowScrollVStackView.swift; sourceTree = "<group>"; };
 		552879F5263B473000B3A8F8 /* TVShowCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowCardView.swift; sourceTree = "<group>"; };
 		552879FA263B529200B3A8F8 /* KronaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KronaOne-Regular.ttf"; sourceTree = "<group>"; };
-		552879FB263B537E00B3A8F8 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		552879FB263B537E00B3A8F8 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		55287A08263BAC2D00B3A8F8 /* MovieImageScrollHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieImageScrollHStackView.swift; sourceTree = "<group>"; };
 		55287A0B263BAC4500B3A8F8 /* MovieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieImageView.swift; sourceTree = "<group>"; };
-		55287A0F263BDE7E00B3A8F8 /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
+		55287A0F263BDE7E00B3A8F8 /* Animation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation+Extension.swift"; sourceTree = "<group>"; };
+		55287A13263C81EF00B3A8F8 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		55B8DF8A2638E59C0040F40C /* Infotainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Infotainment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B8DF8D2638E59C0040F40C /* InfotainmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfotainmentApp.swift; sourceTree = "<group>"; };
 		55B8DF8F2638E59C0040F40C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -109,8 +111,8 @@
 		552879D5263B34F000B3A8F8 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				552879FB263B537E00B3A8F8 /* FontExtension.swift */,
-				55287A0F263BDE7E00B3A8F8 /* AnimationExtension.swift */,
+				552879FB263B537E00B3A8F8 /* Font+Extension.swift */,
+				55287A0F263BDE7E00B3A8F8 /* Animation+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -220,6 +222,7 @@
 		55B8DFA32638E5D50040F40C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				55287A13263C81EF00B3A8F8 /* Navigation.swift */,
 				55B8DFC12638E7690040F40C /* Utility.swift */,
 				55B8DFD52638F3280040F40C /* Bundle.swift */,
 			);
@@ -398,11 +401,11 @@
 				55B8DFD32638F2610040F40C /* MovieExtensionModel.swift in Sources */,
 				55B8DFCF2638E94F0040F40C /* MovieImageOverviewView.swift in Sources */,
 				55B8DFF226392DCE0040F40C /* MovieDetailLazyView.swift in Sources */,
-				55287A10263BDE7E00B3A8F8 /* AnimationExtension.swift in Sources */,
+				55287A10263BDE7E00B3A8F8 /* Animation+Extension.swift in Sources */,
 				55B8DFBC2638E6AE0040F40C /* FetchMovieModel.swift in Sources */,
 				55B8DFDC263900390040F40C /* MovieListViewModel.swift in Sources */,
 				552879E0263B3D4000B3A8F8 /* TVShowAPIModel.swift in Sources */,
-				552879FC263B537E00B3A8F8 /* FontExtension.swift in Sources */,
+				552879FC263B537E00B3A8F8 /* Font+Extension.swift in Sources */,
 				55B8DFC22638E7690040F40C /* Utility.swift in Sources */,
 				552879F6263B473000B3A8F8 /* TVShowCardView.swift in Sources */,
 				55B8DFE0263901590040F40C /* MoviesShowsHomeScreenView.swift in Sources */,
@@ -411,6 +414,7 @@
 				55B8DFD92638F5580040F40C /* MovieScrollHStackView.swift in Sources */,
 				55287A0C263BAC4500B3A8F8 /* MovieImageView.swift in Sources */,
 				55B8DFF626392E2D0040F40C /* MovieDetailImageView.swift in Sources */,
+				55287A14263C81EF00B3A8F8 /* Navigation.swift in Sources */,
 				55B8DFC62638E80D0040F40C /* MovieAPIModel.swift in Sources */,
 				552879EC263B424800B3A8F8 /* TVShowListViewModel.swift in Sources */,
 				552879F3263B46F700B3A8F8 /* TVShowScrollVStackView.swift in Sources */,
