@@ -14,14 +14,13 @@ struct MainView: View {
     }
     
     var body: some View {
-        
         TabView{
             MoviesShowsHomeScreenView()
                 .tabItem {
                     Image(systemName: "house.circle")
                     Text("Home")
                 } // End MovieListView tabItem
-        }.accentColor(.white) // End  TabView
+        } // End  TabView
         
     }// End body
 }
