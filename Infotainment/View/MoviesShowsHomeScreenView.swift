@@ -46,7 +46,6 @@ struct MoviesShowsHomeScreenView: View {
                             self.upcoming.loadMovies(with:.upcoming)
                         }
                         
-                        
                     }// end else
                         
                 } //End topRated Group
@@ -54,8 +53,15 @@ struct MoviesShowsHomeScreenView: View {
                 } // End LazyVStack
                 
             }// End ScrollvIEW
+            .background(Color.primaryDarkBackground)
             .navigationBarTitle("Infotainment", displayMode: .inline)
+            .background(NavigationConfigurator { nc in
+                nc.navigationBar.barTintColor = UIColor( Color.primaryDark)
+                nc.navigationBar.titleTextAttributes = [.foregroundColor : UIColor(Color.softOrange)]
+                       })// end background
         }// End NavigationView
+       
+        .accentColor(.white)
         .onAppear{
             self.nowPlaying.loadMovies(with: .nowPlaying)
             self.upcoming.loadMovies(with: .upcoming)
@@ -66,5 +72,6 @@ struct MoviesShowsHomeScreenView: View {
 struct MovieListView_Previews: PreviewProvider {
     static var previews: some View {
         MoviesShowsHomeScreenView()
+            .previewLayout(.fixed(width:896, height:414))
     }
 }
