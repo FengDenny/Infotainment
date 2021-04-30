@@ -14,17 +14,21 @@ struct MovieScrollHStackView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0){
+            
+            
             Text(title)
                 .font(.primary(.regular, size: 30))
+                .foregroundColor(.blue)
                 .padding(10)
-            ScrollView(.horizontal){
+            ScrollView(.horizontal, showsIndicators: false){
                 HStack(){
+                    
                     ForEach(self.movies){ movie in
-                        MovieImageView(movie: movie)
-                            .frame(width:350, height:  450)
-                           
-                    }
-                }// end VStack
+                            MovieImageOverviewView(movie: movie)
+                                .frame(width:350, height:  450)
+                
+                    }// end ForEach
+                }// end HStack
                 .padding(2)
             }// end ScrollView
             
