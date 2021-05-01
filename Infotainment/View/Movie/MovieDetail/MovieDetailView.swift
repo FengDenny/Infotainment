@@ -24,6 +24,7 @@ struct MovieDetailView: View {
                 }// end if
                 
             } // end ZStack
+            .background(Color.primaryDarkBackground)
             .offset(y:10)
             .navigationBarTitle(movieDetailState.movie?.title ?? "")
 //            MARK: CHANGE COLOR
