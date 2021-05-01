@@ -16,7 +16,7 @@ struct TVShowImageView: View {
         VStack(alignment: .leading){
             ZStack{
                 RoundedRectangle(cornerRadius: 25, style: .continuous)
-                    .fill(Color.white.opacity(0.3))
+                    .fill(Color.primaryDarkBackground.opacity(0.3))
                 if(image != nil)
                 {
                     Image(uiImage: image!)
@@ -37,6 +37,7 @@ struct TVShowImageView: View {
                 .offset(x: 120, y:-100)
                 
             }// end ZStack
+            .background(Color.primaryDarkBackground)
             .aspectRatio(1,contentMode: .fit)
             .cornerRadius(10)
             .shadow(radius:10)
