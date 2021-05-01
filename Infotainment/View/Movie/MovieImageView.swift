@@ -35,20 +35,11 @@ struct MovieImageView: View {
                 ){
                 Image(systemName: "info.circle")
                     .resizable()
-                    .frame(width: 40, height: 40)
+                    .frame(width: 30, height: 30)
                     .foregroundColor(.white)
                     .shadow(color: Color.black.opacity(0.9), radius: 3, x: 0.0, y: 3)
                 }// end NavigationLink
-                .offset(x: 140, y:-140)
-                Text("\(movie.title) | \(movie.score)")
-                    
-                    .font(.primary(.regular, size: 20))
-                    .foregroundColor(.white)
-                    .padding()
-//                    MARK:CHANGE COLOR
-                    .background(Color.blue)
-                    .cornerRadius(8)
-                    .offset(x: 10, y: 120)
+                .offset(x: 120, y:-100)
                 
             }// end ZStack
             .aspectRatio(1,contentMode: .fit)
