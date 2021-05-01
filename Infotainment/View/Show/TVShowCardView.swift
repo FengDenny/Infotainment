@@ -11,6 +11,7 @@ struct TVShowCardView: View {
     
     let shows: Shows
     @StateObject var imageLoader = ImageLoader()
+    @State private var isShowingSheet = false
     
     var body: some View {
         let image = self.imageLoader.image
@@ -28,7 +29,26 @@ struct TVShowCardView: View {
                         .opacity(0.6)
                         
                 }// end if
-                
+                Button(action: {
+                           isShowingSheet.toggle()
+                       }) {
+                        Image(systemName: "info.circle")
+                            .resizable()
+                            .frame(width: 30, height: 30)
+                            .foregroundColor(.white)
+                            .shadow(color: Color.black.opacity(0.9), radius: 3, x: 0.0, y: 3)
+                          
+                       }
+                       .sheet(isPresented: $isShowingSheet) {
+                        ZStack{
+                        TVShowDetailView(showID: shows.id)
+                        Button("Dimiss",
+                               action: { isShowingSheet.toggle() })
+                            .foregroundColor(Color.softOrange)
+                            .offset(y:400)
+                       }
+                       }
+                    .offset(x: 120, y:-100)
                 Text(shows.name)
                     .foregroundColor(.white)
                     .font(.primary(.regular, size: 15))
@@ -56,6 +76,9 @@ struct TVShowCardView: View {
 
 struct TVShowCardView_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView{
         TVShowCardView(shows: Shows.latestShow)
+        }
     }
+        
 }
