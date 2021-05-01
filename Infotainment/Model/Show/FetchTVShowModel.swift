@@ -20,7 +20,7 @@ enum ShowEndpoint: String, CaseIterable, Identifiable {
     
     var id: String { rawValue }
     
-    case nowPlaying = "now_playing"
+    case airingToday = "airing_today"
     case upcoming
     case topRated = "top_rated"
     case popular
@@ -28,7 +28,7 @@ enum ShowEndpoint: String, CaseIterable, Identifiable {
     case onAir = " on_the_air"
     var description: String {
         switch self {
-            case .nowPlaying: return "Now Playing"
+            case .airingToday: return "Airing Today"
             case .upcoming: return "Upcoming"
             case .topRated: return "Top Rated"
             case .popular: return "Popular"
