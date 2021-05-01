@@ -22,11 +22,15 @@ struct MovieDetailImageView: View {
             Rectangle().fill(Color.gray.opacity(0.2))
             if( image != nil)
             {
-                Image(uiImage: image!).resizable()
+                Image(uiImage: image!)
+                    .resizable()
+                    .frame(maxWidth:.infinity)
+                    .background(Color.black)
+                    .opacity(0.6)
             }// end if
             
         } // end ZStack
-        .aspectRatio(16/9, contentMode: .fit)
+        .aspectRatio(10/9, contentMode: .fit)
         .onAppear{self.imageLoader.loadImage(with: self.imageURL)}
     } // End body
 }
