@@ -22,13 +22,19 @@ struct MainView: View {
                     Text("Movies")
                 } // End MovieListView tabItem
             
-            
                   TVShowsHomeScreenView()
                       .frame(maxWidth: .infinity, maxHeight: .infinity)
                       .tabItem {
                         Image(systemName: "tv.circle")
                         Text("TV Shows")
                       }
+            
+            TVShowScrollVStackView(title: "On Air", shows: Shows.latestShows)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .tabItem {
+                  Image(systemName: "antenna.radiowaves.left.and.right")
+                  Text("On Air")
+                }
               
         } // End  TabView
         .accentColor(Color.softOrange)
