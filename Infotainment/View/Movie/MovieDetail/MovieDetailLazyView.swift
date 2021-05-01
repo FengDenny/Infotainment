@@ -20,33 +20,34 @@ struct MovieDetailLazyView: View{
             LazyVStack{
                 ZStack{
                 MovieDetailImageView(imageURL: self.movies.posterPathURL)
-                    .listRowInsets(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                     Text(movies.score)
                         .font(.title2)
                         .padding(6)
                         .foregroundColor(.white)
-                        .background(Color.blue)
+                        .background(Color.softOrange)
                         .cornerRadius(8)
                         .opacity(0.8)
                         .offset(x:150,y:90)
                        
                 }// end ZStack
-                .frame(width: .infinity, height: .infinity)
                 HStack{
-                    Text("\(movies.genreText) Film")
+                    Text("\(movies.genreText)")
                     Text("|")
                     Text("\(movies.yearReleaseDate)")
                     Text("|")
                     Text("\(movies.duration)")
                 }// end HStack
+                .foregroundColor(.white)
                 
                 HStack{
                     Text(movies.overview)
                 }// end HStacks
+                .foregroundColor(.white)
                 .padding()
                 
             }// end LazyVStack
-            .background(Color.white)
+            .background(Color.primaryDarkBackground)
             .cornerRadius(10)
         }// end ScrollView
         
