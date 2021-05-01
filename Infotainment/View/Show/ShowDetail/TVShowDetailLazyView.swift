@@ -17,7 +17,7 @@ struct TVShowDetailLazyView: View {
             LazyVStack{
                 ZStack{
                 TVShowDetailImageView(imageURL: self.show.posterPathURL)
-                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                  
                     Text(show.score)
                         .font(.title2)
                         .padding(6)
@@ -31,7 +31,7 @@ struct TVShowDetailLazyView: View {
                 HStack{
                     Text("\(show.genre)")
                     Text("|")
-                    Text("Network: \(show.networkName)")
+                    Text("\(show.networkName)")
                     Text("|")
                     Text("Last aired: \(show.lastAirDate ?? "n/a")")
 //                    Text("|")
@@ -44,7 +44,7 @@ struct TVShowDetailLazyView: View {
                 }// end HStacks
                 .foregroundColor(.white)
                 .padding()
-                
+            
             }// end LazyVStack
             .background(Color.primaryDarkBackground)
             .cornerRadius(10)
