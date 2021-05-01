@@ -10,17 +10,28 @@ import SwiftUI
 struct MainView: View {
     
     init(){
-        UITabBar.appearance().backgroundColor = UIColor.black
+        UITabBar.appearance().barTintColor = UIColor(Color.primaryDark)
     }
     
     var body: some View {
         TabView{
-            MoviesShowsHomeScreenView()
+            MoviesHomeScreenView()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .tabItem {
-                    Image(systemName: "house.circle")
-                    Text("Home")
+                    Image(systemName: "film")
+                    Text("Movies")
                 } // End MovieListView tabItem
+            
+            
+                  TVShowsHomeScreenView()
+                      .frame(maxWidth: .infinity, maxHeight: .infinity)
+                      .tabItem {
+                        Image(systemName: "tv.circle")
+                        Text("TV Shows")
+                      }
+              
         } // End  TabView
+        .accentColor(Color.softOrange)
         
     }// End body
 }
