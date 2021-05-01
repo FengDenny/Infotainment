@@ -16,9 +16,10 @@ struct TVShowScrollVStackView: View {
         VStack(alignment: .leading)
         {
             Text(title)
-                .font(.primary(.regular, size: 20))
+                .foregroundColor(Color.softOrange)
+                .font(.primary(.regular, size: 30))
                 .fontWeight(.bold)
-                .padding(10)
+                .padding(20)
             ScrollView()
             {
                 VStack(spacing:1){
