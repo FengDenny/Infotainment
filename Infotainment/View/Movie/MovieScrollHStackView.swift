@@ -18,7 +18,7 @@ struct MovieScrollHStackView: View {
             
             Text(title)
                 .font(.primary(.regular, size: 30))
-                .foregroundColor(.blue)
+                .foregroundColor(Color.softOrange)
                 .padding(10)
             ScrollView(.horizontal, showsIndicators: false){
                 HStack(){
