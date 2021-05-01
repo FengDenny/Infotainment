@@ -31,13 +31,13 @@ struct TVShowCardView: View {
                 
                 Text(shows.name)
                     .foregroundColor(.white)
-                    .font(.primary(.regular, size: 20))
+                    .font(.primary(.regular, size: 15))
                     .fontWeight(.bold)
                     .padding()
 //                    MARK: Color change 
-                    .background(Color.blue)
+                    .background(Color.primaryDarkBackground)
                     .cornerRadius(8)
-                    .offset(x: 10, y: 120)
+                    .offset(x: 5, y: 100)
                 
             }// end ZStack
             .aspectRatio(1,contentMode: .fit)
