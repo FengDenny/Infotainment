@@ -18,14 +18,13 @@ struct MovieImageScrollHStackView: View {
             Text(title)
                 .font(.primary(.regular, size: 30))
 //                MARK: CHANGE COLOR 
-                .foregroundColor(.blue)
+                .foregroundColor(Color.softOrange)
                 .padding()
-                .offset(y:40)
+                .offset(y:20)
             ScrollView(.horizontal, showsIndicators:false){
                 HStack{
                     ForEach(self.movies){ movie in
-
-                            MovieImageView(movie: movie)  .frame(width:350, height:  450)
+                            MovieImageView(movie: movie)  .frame(width:300, height:  350)
                     }// end ForEach
                 }// end HStack
                 
@@ -35,7 +34,7 @@ struct MovieImageScrollHStackView: View {
             
             
         }// end VStack
-    }
+    } // end body
 }
 
 struct MovieImageScrollHStackView_Previews: PreviewProvider {
