@@ -24,7 +24,7 @@ struct TVShowsHomeScreenView: View {
                 Group{
                     if(airingToday.shows != nil){
                         
-                        TVShowImageScrollHStackView(title: "Now Playing", shows: airingToday.shows!)
+                        TVShowImageScrollHStackView(title: "New Episodes", shows: airingToday.shows!)
                     }else
                     {
                         LoadingView(isLoading: airingToday.isLoading, error: self.airingToday.error){
@@ -32,8 +32,23 @@ struct TVShowsHomeScreenView: View {
                     }
                 }
                 
-                }// end nowPlaying group
-
+                }// end airingToday group
+                
+                
+                Group{
+                    if(popular.shows != nil){
+                        
+                        
+                        TVShowImageScrollHStackView(title: "Popular Shows", shows: popular.shows!)
+                    }else
+                    {
+                        LoadingView(isLoading: popular.isLoading, error: self.popular.error){
+                            self.popular.loadMovies(with:.popular)
+                    }
+                }
+                
+                }// end airingToday group
+                
                 } // End LazyVStack
                 
              }// end ScrollView
@@ -44,9 +59,10 @@ struct TVShowsHomeScreenView: View {
                 nc.navigationBar.titleTextAttributes = [.foregroundColor : UIColor(Color.softOrange)]
                        })// end background
             
-        } // end NavigationView
+        }.accentColor(Color.softOrange) // end NavigationView
         .onAppear{
             self.airingToday.loadMovies(with: .airingToday)
+            self.popular.loadMovies(with: .popular)
         }
         
     } // end body
