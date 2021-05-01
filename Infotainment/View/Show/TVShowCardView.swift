@@ -46,9 +46,11 @@ struct TVShowCardView: View {
                                action: { isShowingSheet.toggle() })
                             .foregroundColor(Color.softOrange)
                             .offset(y:400)
-                       }
-                       }
+                       }// end of ZStack
+                        
+                       }// end of sheet
                     .offset(x: 120, y:-100)
+                
                 Text(shows.name)
                     .foregroundColor(.white)
                     .font(.primary(.regular, size: 15))
