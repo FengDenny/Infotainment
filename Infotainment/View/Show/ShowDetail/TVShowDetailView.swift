@@ -24,7 +24,8 @@ struct TVShowDetailView: View {
                 }// end if
                 
             } // end ZStack
-            .background(Color.primaryDarkBackground)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.primaryDarkBackground.edgesIgnoringSafeArea(.all))
             .offset(y:10)
             .navigationBarTitle(showDetailState.show?.name ?? "")
 //            MARK: CHANGE COLOR
