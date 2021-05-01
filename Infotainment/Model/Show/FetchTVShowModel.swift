@@ -25,7 +25,7 @@ enum ShowEndpoint: String, CaseIterable, Identifiable {
     case topRated = "top_rated"
     case popular
     case discover
-    case onAir = " on_the_air"
+    case onAir = "on_the_air"
     var description: String {
         switch self {
             case .airingToday: return "Airing Today"
