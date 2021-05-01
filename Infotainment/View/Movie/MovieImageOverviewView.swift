@@ -39,7 +39,7 @@ struct MovieImageOverviewView: View {
                 ){
                 Image(systemName: "info.circle")
                     .resizable()
-                    .frame(width: 40, height: 40)
+                    .frame(width: 30, height: 30)
                     .foregroundColor(.white)
                     .shadow(color: Color.black.opacity(0.9), radius: 3, x: 0.0, y: 3)
                 }// end NavigationLink
@@ -51,7 +51,6 @@ struct MovieImageOverviewView: View {
                         .padding()
                         .offset(x: 10, y: 120)
                
-                
                 
             }// end ZStack
             .aspectRatio(1,contentMode: .fit)
@@ -65,13 +64,13 @@ struct MovieImageOverviewView: View {
                 .offset(y: 4)
             
             Text(movie.overview)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.primaryDarkBackground)
                 .font(.primary(.regular, size: 15))
                 .fontWeight(.medium)
                 .padding(10)
         }//end VStack
 //        MARK:CHANGE THIS COLOR
-        .background(Color.blue)
+        .background(Color.softOrange)
         .cornerRadius(8)
         .shadow(color: Color.black.opacity(0.9), radius: 3, x: 0.0, y: 3)
         .lineLimit(3)
