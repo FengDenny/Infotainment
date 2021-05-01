@@ -13,6 +13,7 @@ struct TVShowScrollVStackView: View {
     let shows: [Shows]
     
     var body: some View {
+        NavigationView{
         VStack(alignment: .leading)
         {
             Text(title)
@@ -25,11 +26,23 @@ struct TVShowScrollVStackView: View {
                 VStack(spacing:1){
                     ForEach(self.shows){ show in
                         TVShowCardView(shows: show)
-                    }
-                }
-            }
-        }
-    }
+                    } // end ForEach
+                    
+                }// end VStack ScrollView
+                
+            } // end ScrollView
+
+            
+        }// end VStack
+        .background(Color.primaryDarkBackground)
+        .navigationBarTitle("Infotainment", displayMode: .inline)
+        .background(NavigationConfigurator { nc in
+            nc.navigationBar.barTintColor = UIColor( Color.primaryDark)
+            nc.navigationBar.titleTextAttributes = [.foregroundColor : UIColor(Color.softOrange)]
+        }).edgesIgnoringSafeArea(.all)// end background
+        }// end NavigationView
+        .accentColor(.white)
+    } // end body
 }
 
 struct TVShowCarouselView_Previews: PreviewProvider {
