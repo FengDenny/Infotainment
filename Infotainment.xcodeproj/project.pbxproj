@@ -15,6 +15,7 @@
 		55128579263CEF2B00278373 /* TVShowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55128578263CEF2B00278373 /* TVShowImageView.swift */; };
 		5512857D263CF01900278373 /* TVShowImageScrollHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512857C263CF01900278373 /* TVShowImageScrollHStackView.swift */; };
 		55128583263CF75E00278373 /* TVShowScrollHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55128582263CF75E00278373 /* TVShowScrollHStackView.swift */; };
+		55128586263DEA4300278373 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55128585263DEA4300278373 /* SafariView.swift */; };
 		552879D9263B3CD700B3A8F8 /* TVShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879D8263B3CD700B3A8F8 /* TVShowModel.swift */; };
 		552879DC263B3CFC00B3A8F8 /* TVShowExtensionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879DB263B3CFC00B3A8F8 /* TVShowExtensionModel.swift */; };
 		552879E0263B3D4000B3A8F8 /* TVShowAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879DF263B3D4000B3A8F8 /* TVShowAPIModel.swift */; };
@@ -67,6 +68,7 @@
 		55128578263CEF2B00278373 /* TVShowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVShowImageView.swift; path = ShowDetail/TVShowImageView.swift; sourceTree = "<group>"; };
 		5512857C263CF01900278373 /* TVShowImageScrollHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowImageScrollHStackView.swift; sourceTree = "<group>"; };
 		55128582263CF75E00278373 /* TVShowScrollHStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowScrollHStackView.swift; sourceTree = "<group>"; };
+		55128585263DEA4300278373 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		552879D8263B3CD700B3A8F8 /* TVShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowModel.swift; sourceTree = "<group>"; };
 		552879DB263B3CFC00B3A8F8 /* TVShowExtensionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowExtensionModel.swift; sourceTree = "<group>"; };
 		552879DF263B3D4000B3A8F8 /* TVShowAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowAPIModel.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		55B8DF9E2638E5B00040F40C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55128585263DEA4300278373 /* SafariView.swift */,
 				55B8DFE5263904070040F40C /* ActivityIndicatorView.swift */,
 				55B8DFE2263903D70040F40C /* LoadingView.swift */,
 				55B8DFA72638E6000040F40C /* Show */,
@@ -451,6 +454,7 @@
 				55B8DFF626392E2D0040F40C /* MovieDetailImageView.swift in Sources */,
 				55128569263CD95B00278373 /* TVShowDetailView.swift in Sources */,
 				55128579263CEF2B00278373 /* TVShowImageView.swift in Sources */,
+				55128586263DEA4300278373 /* SafariView.swift in Sources */,
 				55128583263CF75E00278373 /* TVShowScrollHStackView.swift in Sources */,
 				55287A14263C81EF00B3A8F8 /* Navigation.swift in Sources */,
 				55B8DFC62638E80D0040F40C /* MovieAPIModel.swift in Sources */,
