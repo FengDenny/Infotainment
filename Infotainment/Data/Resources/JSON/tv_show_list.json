@@ -2,6 +2,27 @@
     "page": 1,
     "results": [
         {
+                   "backdrop_path": "/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
+                   "first_air_date": "2011-04-17",
+                   "genre_ids": [
+                       10765,
+                       18,
+                       10759
+                   ],
+                   "id": 1399,
+                   "name": "Game of Thrones",
+                   "origin_country": [
+                       "US"
+                   ],
+                   "original_language": "en",
+                   "original_name": "Game of Thrones",
+                   "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+                   "popularity": 552.573,
+                   "poster_path": "/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+                   "vote_average": 8.4,
+                   "vote_count": 14141
+               },
+        {
             "backdrop_path": "/9XUIsRUB7V3iEoLSKxZCqPvbKKW.jpg",
             "first_air_date": "2018-09-04",
             "genre_ids": [
@@ -21,6 +42,27 @@
             "vote_average": 7.8,
             "vote_count": 172
         },
+        {
+                    "backdrop_path": "/nVRyd8hlg0ZLxBn9RaI7mUMQLnz.jpg",
+                    "first_air_date": "2005-09-13",
+                    "genre_ids": [
+                        18,
+                        9648,
+                        10765
+                    ],
+                    "id": 1622,
+                    "name": "Supernatural",
+                    "origin_country": [
+                        "US"
+                    ],
+                    "original_language": "en",
+                    "original_name": "Supernatural",
+                    "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way. ",
+                    "popularity": 284.08,
+                    "poster_path": "/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg",
+                    "vote_average": 8.2,
+                    "vote_count": 5053
+                },
         {
             "backdrop_path": "/zXpSJLcczUt6EfbdULZanguzy87.jpg",
             "first_air_date": "2013-09-23",
@@ -42,6 +84,115 @@
             "vote_average": 7.4,
             "vote_count": 1932
         },
+        
+        {
+                   "backdrop_path": "/9ijMGlJKqcslswWUzTEwScm82Gs.jpg",
+                   "first_air_date": "2019-11-12",
+                   "genre_ids": [
+                       10765,
+                       10759,
+                       37,
+                       18
+                   ],
+                   "id": 82856,
+                   "name": "The Mandalorian",
+                   "origin_country": [
+                       "US"
+                   ],
+                   "original_language": "en",
+                   "original_name": "The Mandalorian",
+                   "overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+                   "popularity": 263.258,
+                   "poster_path": "/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+                   "vote_average": 8.5,
+                   "vote_count": 6278
+               },
+            
+                {
+                    "backdrop_path": "/mGVrXeIjyecj6TKmwPVpHlscEmw.jpg",
+                    "first_air_date": "2019-07-25",
+                    "genre_ids": [
+                        10765,
+                        10759
+                    ],
+                    "id": 76479,
+                    "name": "The Boys",
+                    "origin_country": [
+                        "US"
+                    ],
+                    "original_language": "en",
+                    "original_name": "The Boys",
+                    "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+                    "popularity": 211.443,
+                    "poster_path": "/mY7SeH4HFFxW1hiI6cWuwCRKptN.jpg",
+                    "vote_average": 8.4,
+                    "vote_count": 4443
+                },
+        
+        {
+                "backdrop_path": "/8A2IYYRLM5rR0hYwbWJr9KLPnUu.jpg",
+                "first_air_date": "2001-10-16",
+                "genre_ids": [
+                    10765,
+                    10759,
+                    18
+                ],
+                "id": 4604,
+                "name": "Smallville",
+                "origin_country": [
+                    "US"
+                ],
+                "original_language": "en",
+                "original_name": "Smallville",
+                "overview": "The origins of the world’s greatest hero–from Krypton refugee Kal-el’s arrival on Earth through his tumultuous teen years to Clark Kent’s final steps toward embracing his destiny as the Man of Steel.",
+                "popularity": 261.128,
+                "poster_path": "/pUhJGETy2sec4vEkiqJ9eGeIywc.jpg",
+                "vote_average": 8.2,
+                "vote_count": 2386
+            },
+        
+        {
+                   "backdrop_path": "/wiE9doxiLwq3WCGamDIOb2PqBqc.jpg",
+                   "first_air_date": "2013-09-12",
+                   "genre_ids": [
+                       80,
+                       18
+                   ],
+                   "id": 60574,
+                   "name": "Peaky Blinders",
+                   "origin_country": [
+                       "GB"
+                   ],
+                   "original_language": "en",
+                   "original_name": "Peaky Blinders",
+                   "overview": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
+                   "popularity": 236.799,
+                   "poster_path": "/6PX0r5TRRU5y0jZ70y1OtbLYmoD.jpg",
+                   "vote_average": 8.6,
+                   "vote_count": 2468
+               },
+        {
+            "backdrop_path": "/tmv5fQRqW8bbetWjjSw01het0hk.jpg",
+            "first_air_date": "2010-09-20",
+            "genre_ids": [
+                80,
+                18,
+                10759
+            ],
+            "id": 32798,
+            "name": "Hawaii Five-0",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Hawaii Five-0",
+            "overview": "Steve McGarrett returns home to Oahu, in order to find his father's killer. The governor offers him the chance to run his own task force (Five-0). Steve's team is joined by Chin Ho Kelly, Danny \"Danno\" Williams, and Kono Kalakaua.",
+            "popularity": 178.36,
+            "poster_path": "/sIdCKlmM2nU4akIvFQaAIiU8YES.jpg",
+            "vote_average": 7.5,
+            "vote_count": 1005
+        },
+        
         {
             "backdrop_path": "/yD1R7QCNqrcaf15AxkLbgRLI9Dz.jpg",
             "first_air_date": "2003-09-23",
