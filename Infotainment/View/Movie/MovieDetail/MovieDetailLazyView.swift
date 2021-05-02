@@ -45,7 +45,36 @@ struct MovieDetailLazyView: View{
                 }// end HStacks
                 .foregroundColor(.white)
                 .padding()
-                
+//       MARK: YouTube Trailers
+                if movies.youtubeTrailers != nil && movies.youtubeTrailers!.count > 0{
+                    
+                    Text("Trailers")
+                        .font(.primary(.regular, size: 25))
+                        .foregroundColor(.softOrange)
+                    ForEach(movies.youtubeTrailers!){
+                        
+                        trailer in Button(action: {
+                            self.selectedTrailer = trailer
+                        }) {
+                            HStack{
+                                Text(trailer.name)
+                                    .foregroundColor(.white)
+                                Spacer()
+                                Image(systemName: "play.circle.fill")
+                                    .foregroundColor(Color.softOrange)
+                            } // end HStack
+                            .padding(20)
+                        }// end Button
+                        
+                    }// end ForEach
+                    .sheet(item: self.$selectedTrailer){
+                        trailer in SafariView(url: trailer.youtubeURL!)
+                    }
+                }// end if
+                else{
+                    Text("No trailers right now. Stay tuned!").foregroundColor(Color.softOrange)
+                } //end else 
+              
             }// end LazyVStack
             .background(Color.primaryDarkBackground)
             .cornerRadius(10)
