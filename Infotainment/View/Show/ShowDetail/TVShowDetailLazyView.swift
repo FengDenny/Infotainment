@@ -10,6 +10,7 @@ import SwiftUI
 struct TVShowDetailLazyView: View {
     let show: Shows
  
+    @State private var selectedTrailer: ShowTrailer?
     
     var body: some View {
        
@@ -17,6 +18,7 @@ struct TVShowDetailLazyView: View {
             LazyVStack{
                 ZStack{
                 TVShowDetailImageView(imageURL: self.show.posterPathURL)
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                   
                     Text(show.score)
                         .font(.title2)
@@ -44,12 +46,45 @@ struct TVShowDetailLazyView: View {
                 }// end HStacks
                 .foregroundColor(.white)
                 .padding()
+                
+                
+                
+//       MARK: YouTube Trailers
+            if show.youtubeTrailers != nil && show.youtubeTrailers!.count > 0{
+                                    
+                Text("Trailers")
+                .font(.primary(.regular, size: 25))
+                .foregroundColor(.softOrange)
+                ForEach(show.youtubeTrailers!){
+                                            
+                    trailer in Button(action: {
+                    self.selectedTrailer = trailer
+                    }) {
+                        HStack{
+                        Text(trailer.name)
+                        .foregroundColor(.white)
+                        Spacer()
+                        Image(systemName: "play.circle.fill")
+                            .foregroundColor(Color.softOrange)
+                        } // end HStack
+                            .padding(20)
+                        }// end Button
+                                            
+                    }// end ForEach
+                    .sheet(item: self.$selectedTrailer){
+                    trailer in SafariView(url: trailer.youtubeURL!)
+                                        }
+                }// end if
+                
+            else{
+                Text("No trailer right now. Stay tuned!").foregroundColor(Color.softOrange)
+            } // end else
             
             }// end LazyVStack
             .background(Color.primaryDarkBackground)
             .cornerRadius(10)
         }// end ScrollView
-        
+        .background(Color.primaryDarkBackground.edgesIgnoringSafeArea(.all))
     }
 }
 
