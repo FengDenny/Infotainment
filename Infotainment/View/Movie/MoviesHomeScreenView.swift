@@ -48,7 +48,22 @@ struct MoviesHomeScreenView: View {
                         
                     }// end else
                         
+                } //End upcoming Group
+                    
+                Group{
+                if( topRated.movies != nil){
+                    MovieImageScrollHStackView(title: "Top Rated Movies ", movies: topRated.movies!)
+                }else{
+                LoadingView(isLoading: topRated.isLoading, error: self.topRated.error){
+                    self.topRated.loadMovies(with:.topRated)
+                    }
+                        
+                }// end else
+                        
                 } //End topRated Group
+                    
+                    
+                    
                     
                 } // End LazyVStack
                 
@@ -65,6 +80,7 @@ struct MoviesHomeScreenView: View {
         .onAppear{
             self.nowPlaying.loadMovies(with: .nowPlaying)
             self.upcoming.loadMovies(with: .upcoming)
+            self.topRated.loadMovies(with: .topRated)
         }
     }
 }
