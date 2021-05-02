@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct TVShowsHomeScreenView: View {
-    
-    
-    @ObservedObject private var airingToday = TVShowListViewModel()
-    @ObservedObject private var upcoming = TVShowListViewModel()
-    @ObservedObject private var topRated = TVShowListViewModel()
-    @ObservedObject private var airing = TVShowListViewModel()
-    @ObservedObject private var popular = TVShowListViewModel()
-    @ObservedObject private var discover = TVShowListViewModel()
+
+@ObservedObject private var airingToday = TVShowListViewModel()
+@ObservedObject private var upcoming = TVShowListViewModel()
+@ObservedObject private var topRated = TVShowListViewModel()
+@ObservedObject private var airing = TVShowListViewModel()
+@ObservedObject private var popular = TVShowListViewModel()
+@ObservedObject private var discover = TVShowListViewModel()
     
     var body: some View {
         NavigationView{
@@ -59,7 +58,8 @@ struct TVShowsHomeScreenView: View {
                 nc.navigationBar.titleTextAttributes = [.foregroundColor : UIColor(Color.softOrange)]
                        })// end background
             
-        }.accentColor(Color.softOrange) // end NavigationView
+        }
+        .accentColor(Color.softOrange) // end NavigationView
         .onAppear{
             self.airingToday.loadMovies(with: .airingToday)
             self.popular.loadMovies(with: .popular)
