@@ -45,7 +45,7 @@ struct TVShowCardView: View {
                         Button("Dimiss",
                                action: { isShowingSheet.toggle() })
                             .foregroundColor(Color.softOrange)
-                            .offset(y:400)
+                            .offset(y:410)
                        }// end of ZStack
                         
                        }// end of sheet
