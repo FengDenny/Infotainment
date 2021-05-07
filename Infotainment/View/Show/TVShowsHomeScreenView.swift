@@ -20,6 +20,8 @@ struct TVShowsHomeScreenView: View {
         NavigationView{
             ScrollView{
                LazyVStack{
+                
+                
                 Group{
                     if(airingToday.shows != nil){
                         
@@ -27,7 +29,7 @@ struct TVShowsHomeScreenView: View {
                     }else
                     {
                         LoadingView(isLoading: airingToday.isLoading, error: self.airingToday.error){
-                            self.airingToday.loadMovies(with:.airingToday)
+                            self.airingToday.loadShows(with:.airingToday)
                     }
                 }
                 
@@ -42,11 +44,29 @@ struct TVShowsHomeScreenView: View {
                     }else
                     {
                         LoadingView(isLoading: popular.isLoading, error: self.popular.error){
-                            self.popular.loadMovies(with:.popular)
+                            self.popular.loadShows(with:.popular)
                     }
                 }
                 
-                }// end airingToday group
+                }// end popular group
+                
+                
+                Group{
+                    if(popular.shows != nil){
+                        
+                        
+                        AnimeShowScrollHStackView(title: "Anime", shows: Shows.animeShows)
+                    }
+                
+                }// end anime group
+                
+                Group{
+                    if(popular.shows != nil){
+                        KoreanShowScrollVStackView(title: "Korean Dramas", shows: Shows.koreanShows)
+                    }
+                
+                }// end korean group
+                
                 
                 } // End LazyVStack
                 
@@ -61,8 +81,8 @@ struct TVShowsHomeScreenView: View {
         }
         .accentColor(Color.softOrange) // end NavigationView
         .onAppear{
-            self.airingToday.loadMovies(with: .airingToday)
-            self.popular.loadMovies(with: .popular)
+            self.airingToday.loadShows(with: .airingToday)
+            self.popular.loadShows(with: .popular)
         }
         
     } // end body
