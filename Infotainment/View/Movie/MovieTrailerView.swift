@@ -14,6 +14,7 @@ struct MovieTrailerView: View {
     
     var body: some View {
         ZStack{
+            
             //       MARK: YouTube Trailers
             if movies.youtubeTrailers != nil && movies.youtubeTrailers!.count > 0{
                 ForEach(movies.youtubeTrailers!){
@@ -22,7 +23,7 @@ struct MovieTrailerView: View {
                     }) {
                     VStack{
                     Text(trailer.name)
-                    .font(.primary(.regular, size: 13))
+                    .font(.primary(.regular, size: 15))
                     .lineLimit(3)
                     .foregroundColor(.white)
                     Image(systemName: "play.circle.fill")
@@ -44,7 +45,11 @@ struct MovieTrailerView: View {
                         .foregroundColor(Color.white)
                         .font(.primary(.regular, size: 20))
                 } //end else
-         
+            Text("\(movies.yearReleaseDate)")
+                .foregroundColor(.white)
+                .font(.primary(.regular, size: 30))
+                .offset(y:160)
+                
         }
     }
 }
