@@ -21,15 +21,27 @@ extension Shows{
         latestShows[0]
     }
     
-//    MARK: Oncoming Movies
-//    static var discoverMovies:[Movie]
-//    {
-//        let response: MovieModel? = try? Bundle.main.loadAndDecodeJSON(filename: "movie_discover")
-//        return response!.results
-//    }
-//
-//    static var discoverMovie: Movie{
-//        discoverMovies[0]
-//    }
-//
+    static var animeShows:[Shows]
+    {
+        let response: TVShowModel? = try? Bundle.main.loadAndDecodeJSON(filename: "tv_show_anime_list")
+        return response!.results
+    }
+    
+    static var animeShow:Shows
+    {
+        animeShows[0]
+    }
+    
+    static var koreanShows:[Shows]
+    {
+        let response: TVShowModel? = try? Bundle.main.loadAndDecodeJSON(filename: "tv_show_korean_list")
+        return response!.results
+    }
+    
+    static var koreanShow:Shows
+    {
+        koreanShows[0]
+    }
+    
+
 }
