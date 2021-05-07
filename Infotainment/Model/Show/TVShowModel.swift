@@ -69,7 +69,10 @@ struct Shows: Decodable, Identifiable{
     }
 
     
-    
+    var lastAir:String
+    {
+        lastAirDate ?? "n/a"
+    }
     
     var youtubeTrailers: [ShowTrailer]?
        {
