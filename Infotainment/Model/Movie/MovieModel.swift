@@ -32,6 +32,8 @@ struct Movie: Decodable, Identifiable {
            genres?.first?.name ?? "n/a"
        }
     
+   
+    
     var backdropURL: URL {
           return URL(string: "https://image.tmdb.org/t/p/w500\(backdropPath ?? "")")!
       }
