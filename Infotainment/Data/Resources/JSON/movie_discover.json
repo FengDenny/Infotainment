@@ -1,196 +1,174 @@
 {
     "page": 319,
     "results": [
-        {
-            "adult": false,
-            "backdrop_path": "/vc5U3KhkLv68qvMASI5xpoHg4Ef.jpg",
-            "genre_ids": [
-                14,
-                12,
-                28
-            ],
-            "id": 566525,
-            "original_language": "en",
-            "original_title": "Shang-Chi and the Legend of the Ten Rings",
-            "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-            "popularity": 58.663,
-            "poster_path": "/xeItgLK9qcafxbd8kYgv7XnMEog.jpg",
-            "release_date": "2021-09-01",
-            "title": "Shang-Chi and the Legend of the Ten Rings",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
+ 
+ {
+             "adult": false,
+             "backdrop_path": null,
+             "genre_ids": [
+                 27
+             ],
+             "id": 780268,
+             "original_language": "en",
+             "original_title": "Apex Predators",
+             "overview": "The bodies of beach goers begin washing ashore during the grand opening of a new resort. The town Mayor (Mel Novak) attempts to cover it up with dire results.",
+             "popularity": 5.251,
+             "poster_path": "/sHjjy6a7KCjnfTZTug9ne12N63T.jpg",
+             "release_date": "2021-05-11",
+             "title": "Apex Predators",
+             "video": false,
+             "vote_average": 0,
+             "vote_count": 0
+         },
+ {
             "adult": false,
             "backdrop_path": null,
             "genre_ids": [
-                99,
-                37
+                35,
+                14,
+                12
             ],
-            "id": 791120,
+            "id": 744247,
             "original_language": "en",
-            "original_title": "The Pleasant Valley War",
-            "overview": "One of 12 Westerns made in 12 months during 2020, this film tells the incredible true story of America's bloodiest family feud. Told through a combination of documentary interviews and traditional Western scenes, The Pleasant Valley War tracks the fallout between the Grahams and Tewksburys which led to a ten year battle and cost up to fifty lives.",
-            "popularity": 3.363,
-            "poster_path": null,
-            "release_date": "2021-09-01",
-            "title": "The Pleasant Valley War",
+            "original_title": "Baelin's Route: An Epic NPC Man Adventure",
+            "overview": "An NPC set in the video-game 'Skycraft' finds himself escorting a young NPC girl to safety through the harsh fantasy world of Azerim.",
+            "popularity": 6.342,
+            "poster_path": "/8qEukTfEg6NjTHsEy7aiFrkZld5.jpg",
+            "release_date": "2021-05-09",
+            "title": "Baelin's Route: An Epic NPC Man Adventure",
             "video": false,
             "vote_average": 0,
             "vote_count": 0
         },
         {
+            "adult": false,
+            "backdrop_path": "/v76uEArxVaoJy8DwWMSo4VG81Ce.jpg",
+            "genre_ids": [
+                10770,
+                10749
+            ],
+            "id": 778997,
+            "original_language": "en",
+            "original_title": "A Whirlwind Wedding",
+            "overview": "Darcy, a talented event planner returns to her home town to plan her mother’s wedding. She’s having trouble accepting her stepfather-to-be and quickly Darcy’s obsession with perfection begins to clash with her mother’s wishes for a low-key celebration —especially when it comes to handsome and charming Kyle, the chef Darcy deems inadequate for catering the event. But as complications arise—both personal and professional—it’s Kyle who is able to help her pull off the big day and help her find the love she’s been looking for…",
+            "popularity": 9.069,
+            "poster_path": "/b4f28Ov3oEUdHQS2DVMH7kXJj7W.jpg",
+            "release_date": "2021-05-10",
+            "title": "A Whirlwind Wedding",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       27
+                   ],
+                   "id": 815128,
+                   "original_language": "en",
+                   "original_title": "Death Rink",
+                   "overview": "Roller Boogie meets Friday the 13th in a wild new skating spookfest for the spring! The night staff of roller rink are stalked and killed by a mysterious figure who they believe may be the spirit of a teenager who was accidentally killed there years ago.  Amanda Courtney, Caedmon Holland, and Alan Humphrey star.",
+                   "popularity": 4.997,
+                   "poster_path": "/jnwcfFyGjm91IVdEgk5HLKaZ2Y3.jpg",
+                   "release_date": "2021-05-11",
+                   "title": "Death Rink",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
+               {
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       18
+                   ],
+                   "id": 757902,
+                   "original_language": "id",
+                   "original_title": "Losmen Bu Broto",
+                   "overview": "Based on a legendary Indonesian series in 1980s.",
+                   "popularity": 3.045,
+                   "poster_path": "/un3TpRfS6xT1kclqMKWmaTm9sgd.jpg",
+                   "release_date": "2021-05-11",
+                   "title": "Losmen Bu Broto",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
+ {
             "adult": false,
             "backdrop_path": null,
             "genre_ids": [],
-            "id": 785229,
-            "original_language": "nl",
-            "original_title": "Jan Beuving & Patrick Nederkoorn: De Andere Oudejaars",
-            "overview": "Dutch comedians Jan Beuving and Patrick Nederkoorn talk and sing (accompanied by pianist Tom Dicke) about the year 2020. Which professions are really essential professions? Should they educate themselves better on racial awareness? They sing songs about, for example, sign language and Ab Osterhaus.",
-            "popularity": 1.693,
-            "poster_path": "/flZV0VOFSI0z8LIWgOKAewylfCB.jpg",
-            "release_date": "2021-09-01",
-            "title": "Jan Beuving & Patrick Nederkoorn: De Andere Oudejaars",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                10749,
-                18
-            ],
-            "id": 744275,
+            "id": 824995,
             "original_language": "en",
-            "original_title": "After We Fell",
-            "overview": "Tessa and Hardin's relationship becomes dissevered when revelations about both their families come to light. Tessa's life begins to come unglued. Nothing is what she thought it was. Not her friends. Not her family. The one person she should be able to rely on, is Hardin, who is furious when he discovers the massive secret she's been keeping.",
-            "popularity": 175.603,
-            "poster_path": "/umy454n46930E9ak437kxT7kcXU.jpg",
-            "release_date": "2021-09-01",
-            "title": "After We Fell",
+            "original_title": "Zara and Mike: No Nonsense Royals",
+            "overview": "The Tindalls are on the surface an unlikely pairing of a Wakefield-born rugby union player and the daughter of the Princess Royal born and bred in a royal palace. This programme looks at their life together, from the highs to the lows, revealing how they carved out successful careers for themselves and supported each other along the way.",
+            "popularity": 0,
+            "poster_path": "/yMeIQfCrnwrlDI6uYbfZbEOCk4f.jpg",
+            "release_date": "2021-05-01",
+            "title": "Zara and Mike: No Nonsense Royals",
             "video": false,
             "vote_average": 0,
             "vote_count": 0
         },
-        {
+ {
+             "adult": false,
+             "backdrop_path": "/j3i1l0dYhVNMgHlVhXlAbvdfAy6.jpg",
+             "genre_ids": [
+                 28
+             ],
+             "id": 817984,
+             "original_language": "en",
+             "original_title": "UFC on ESPN 23: Reyes vs. Prochazka",
+             "overview": "UFC on ESPN: Reyes vs. Procházka (also known as UFC on ESPN 23 and UFC Vegas 25) was a mixed martial arts event produced by the Ultimate Fighting Championship that took place on May 1, 2021 at the UFC Apex facility in Enterprise, Nevada, part of the Las Vegas Metropolitan Area, United States.\r Dominick Reyes vs. Jiří Procházka\r Giga Chikadze vs. Cub Swanson\r Ion Cuțelaba vs. Dustin Jacoby\r Sean Strickland vs. Krzysztof Jotko\r Merab Dvalishvili vs. Cody Stamann",
+             "popularity": 36.33,
+             "poster_path": "/sk6eyXdSM7KfhEhBlofuFLFsU8S.jpg",
+             "release_date": "2021-05-01",
+             "title": "UFC on ESPN 23: Reyes vs. Prochazka",
+             "video": false,
+             "vote_average": 0,
+             "vote_count": 0
+         },
+ {
             "adult": false,
-            "backdrop_path": "/5eRxvbepwd6Na5OLTDqO9CGqiO7.jpg",
+            "backdrop_path": "/Ap4z34d8jnt5skKpYYELmKL4Dwq.jpg",
             "genre_ids": [
-                12
-            ],
-            "id": 742734,
-            "original_language": "ko",
-            "original_title": "달이 지는 밤",
-            "overview": "Part I : A middle-aged woman gets off a bus at Muju Terminal. She passes through the town and walks into a forest. She starts to search for the vestiges of her life from beyond the grave. Part II : A young woman, Minjae, returns to her hometown of Muju and starts to work at the county office. Her mother is displeased that her daughter has returned to the hometown. One day, Minjae’s friend from college, Kyungyoon, who hadn’t been in touch for a while, comes to see her.",
-            "popularity": 1.349,
-            "poster_path": "/6g03c3d9fa9N2GeZUcJm95iOXgb.jpg",
-            "release_date": "2021-09-01",
-            "title": "Vestige",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                99,
-                18
-            ],
-            "id": 705958,
-            "original_language": "en",
-            "original_title": "Afterwater",
-            "overview": "Afterwater is a three-part film spanning fiction, documentary and experimental film aiming to study and compare lakes across the world and their hidden treasures: submerged settlements, failed utopias and collective dreams, the remains of past eras and the seeds of a hopeful future.",
-            "popularity": 3.149,
-            "poster_path": null,
-            "release_date": "2021-09-01",
-            "title": "Afterwater",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                12,
-                16,
+                28,
                 35,
-                36,
                 10751
             ],
-            "id": 678320,
-            "original_language": "no",
-            "original_title": "Titina",
-            "overview": "Seen through the eyes of the street dog that became the world’s first four-legged celebrity who traveled to the North Pole in a Zepplin, Titina tells a true-ish story of glory and defeat.",
-            "popularity": 0.771,
-            "poster_path": "/uylxMoVmaqJQocevyrscSyvplAN.jpg",
-            "release_date": "2021-09-01",
-            "title": "Titina",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                18,
-                53
-            ],
-            "id": 676274,
-            "original_language": "el",
-            "original_title": "Night Lights",
-            "overview": "A man is trapped in a loop where he encounters his deepest fear",
-            "popularity": 0.986,
-            "poster_path": null,
-            "release_date": "2021-09-01",
-            "title": "Night Lights",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                99,
-                27
-            ],
-            "id": 637312,
+            "id": 824680,
             "original_language": "en",
-            "original_title": "Dinner with Leatherface",
-            "overview": "A look at poet, author, filmmaker, actor and horror icon, Gunnar Hansen, the original Leatherface in the first Texas Chainsaw Massacre, from friends, colleagues, filmmakers, actors and anyone who knew one of the nicest people affiliated with the horror genre.",
-            "popularity": 6.213,
-            "poster_path": "/okgrTxL6TLsC5rpzRD7S5MQCGgx.jpg",
-            "release_date": "2021-09-01",
-            "title": "Dinner with Leatherface",
+            "original_title": "Police Academy Collection Part Two",
+            "overview": "Police Academy is a series of American comedy films, the first six of which were made in the 1980s. The seventh and to date last installment, Mission to Moscow, was released in 1994. The new film is scheduled for production for 2014. The series opened with Police Academy (1984) which started with the premise that a new mayor had announced a policy requiring the police department to accept all willing recruits. The movie followed a group of misfit recruits in their attempts to prove themselves capable of being police officers. The main character, Carey Mahoney (Steve Guttenberg), was a repeat offender who was forced to join the police academy as punishment.",
+            "popularity": 1.4,
+            "poster_path": "/oaZaZCmJwA6rabf6UTltCdG27FU.jpg",
+            "release_date": "2021-05-01",
+            "title": "Police Academy Collection Part Two",
             "video": false,
             "vote_average": 0,
             "vote_count": 0
         },
         {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                35,
-                18
-            ],
-            "id": 602334,
-            "original_language": "fr",
-            "original_title": "France",
-            "overview": "A celebrity journalist, juggling her busy career and personal life, has her life over-turned by a freak car accident.",
-            "popularity": 1.348,
-            "poster_path": null,
-            "release_date": "2021-09-01",
-            "title": "France",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       27,
+                       53,
+                       80
+                   ],
+                   "id": 482373,
+                   "original_language": "en",
+                   "original_title": "Don't Breathe 2",
+                   "overview": "The Blind Man has been hiding out for years in an isolated cabin and has taken in and raised a young girl who lost her parents in a house fire. Their quiet existence is shattered when a group of kidnappers show up and take the girl, forcing the Blind Man to leave his safe haven to rescue her.",
+                   "popularity": 17.77,
+                   "poster_path": "/uze1RN75hOXAJz0kGBfDizFLRmD.jpg",
+                   "release_date": "2021-08-12",
+                   "title": "Don't Breathe 2",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
         {
             "adult": false,
             "backdrop_path": "/vc5U3KhkLv68qvMASI5xpoHg4Ef.jpg",
@@ -212,189 +190,509 @@
             "vote_count": 0
         },
         {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                18
-            ],
-            "id": 811747,
-            "original_language": "id",
-            "original_title": "Madu Murni",
-            "overview": "Plot unknown.",
-            "popularity": 0.735,
-            "poster_path": null,
-            "release_date": "2021-09-02",
-            "title": "Madu Murni",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       35,
+                       10749
+                   ],
+                   "id": 727745,
+                   "original_language": "en",
+                   "original_title": "The Kissing Booth 3",
+                   "overview": "It’s the summer before Elle heads to college, and she has a secret decision to make. Elle has been accepted into Harvard, where boyfriend Noah is matriculating, and also Berkeley, where her BFF Lee is headed. Which path should she choose?",
+                   "popularity": 27.177,
+                   "poster_path": "/51YOfMXsh41CZEIqbY996UmcAom.jpg",
+                   "release_date": "2021-08-11",
+                   "title": "The Kissing Booth 3",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
         {
-            "adult": false,
-            "backdrop_path": "/gRRFJLipM7Yk5YcfzIHZA871aoE.jpg",
-            "genre_ids": [
-                80,
-                53
-            ],
-            "id": 778517,
-            "original_language": "pt",
-            "original_title": "A Morte Não Te Ama",
-            "overview": "",
-            "popularity": 1.345,
-            "poster_path": "/dmVXYnYnp0F5AZ2Mo2sSe8upeq.jpg",
-            "release_date": "2021-09-02",
-            "title": "A Morte Não Te Ama",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       28,
+                       80
+                   ],
+                   "id": 513692,
+                   "original_language": "cn",
+                   "original_title": "怒火",
+                   "overview": "Shan is a righteous cop who’s solved countless cases. One day, his past comes back to haunt him when his sting operation is attacked by a mysterious group of criminals led by Ngo, his former protégé. Ngo was once a talented cop who admired Shan. However, a terrible accident sent him to prison three years ago, transforming him into a furious man dead set on killing everyone who’s wronged him.",
+                   "popularity": 4.571,
+                   "poster_path": "/3YVIQdq4yXvw20E3bsbv5mpw4vK.jpg",
+                   "release_date": "2021-07-30",
+                   "title": "Raging Fire",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
         {
-            "adult": false,
-            "backdrop_path": "/kAWuPB29NxE5DlDrgJklAFDwfQC.jpg",
-            "genre_ids": [
-                16
-            ],
-            "id": 776660,
-            "original_language": "en",
-            "original_title": "Cryptozoo",
-            "overview": "As cryptozookeepers struggle to capture a Baku (a legendary dream-eating hybrid creature) they begin to wonder if they should display these rare beasts in the confines of a cryptozoo, or if these mythical creatures should remain hidden and unknown.",
-            "popularity": 8.767,
-            "poster_path": "/cOTqRmWJD599z75csvoQsAZ9AkV.jpg",
-            "release_date": "2021-09-02",
-            "title": "Cryptozoo",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                    "adult": false,
+                    "backdrop_path": "/1kaRwk95jRerLJB5M1hKH2MoD6l.jpg",
+                    "genre_ids": [
+                        28,
+                        14,
+                        16
+                    ],
+                    "id": 428142,
+                    "original_language": "ja",
+                    "original_title": "Fate/Grand Order -First Order-",
+                    "overview": "The year 2015 CE.  The last era in which magecraft still thrived.  The Chaldea Security Organization was founded to focus on preserving the continuation of human history. They observe a world which magecraft couldn't observe and science couldn't measure all to prevent the certain extinction of humanity.  But one day, the future that Chaldea continued to observe disappears and humanity's extinction in 2017 becomes clear. Rather, it had already happened.  The cause seems to be related to Fuyuki, a provincial town in Japan, in the year 2004 CE. There, an \"unobservable region\" that had not existed before appears.  Based on the assumption that Fuyuki is the reason for humanity's extinction, Chaldea issues an order to explore, investigate, and possibly destroy this singularity – a quest for the Holy Grail, the Grand Order.",
+                    "popularity": 9.55,
+                    "poster_path": "/t4rUbgv1Cl8RAli22Z2PxwJUesc.jpg",
+                    "release_date": "2021-04-07",
+                    "title": "Fate/Grand Order: First Order",
+                    "video": false,
+                    "vote_average": 4,
+                    "vote_count": 3
+                },
         {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                18
-            ],
-            "id": 775978,
-            "original_language": "en",
-            "original_title": "Notorious Nick",
-            "overview": "Nick Newell, a one-armed MMA fighter gets a rare chance to fight for the lightweight championship. He strives to win for himself and all the other people in the world with physical challenges.",
-            "popularity": 5.891,
-            "poster_path": "/8PJIx8Gi2VHRxAszlR4JshmETFa.jpg",
-            "release_date": "2021-09-02",
-            "title": "Notorious Nick",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                    "adult": false,
+                    "backdrop_path": "/8XZr6cMGW9uTY38NAaqMlAFMBNf.jpg",
+                    "genre_ids": [
+                        28,
+                        18
+                    ],
+                    "id": 587412,
+                    "original_language": "kn",
+                    "original_title": "K.G.F: Chapter 2",
+                    "overview": "Rocky, whose name strikes fear in the heart of his foes. His allies look up to Rocky as their Savior, the government sees him as a threat to law and order; enemies are clamoring for revenge and conspiring for his downfall. Bloodier battles and darker days await as Rocky continues on his quest for unchallenged supremacy.",
+                    "popularity": 6.596,
+                    "poster_path": "/zHI72bEEpdU9ARK1uuUDdnu5m8r.jpg",
+                    "release_date": "2021-07-16",
+                    "title": "K.G.F: Chapter 2",
+                    "video": false,
+                    "vote_average": 0,
+                    "vote_count": 0
+                },
         {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                27
-            ],
-            "id": 619778,
-            "original_language": "en",
-            "original_title": "Malignant",
-            "overview": "Plot kept under wraps.",
-            "popularity": 6.705,
-            "poster_path": "/ls1Ty2rFkWsb440i1XTqHf8kpCn.jpg",
-            "release_date": "2021-09-02",
-            "title": "Malignant",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                   "adult": false,
+                   "backdrop_path": "/dzmFetTvLmCWYMWgtSoLJclcqUL.jpg",
+                   "genre_ids": [
+                       28,
+                       12,
+                       14,
+                       80
+                   ],
+                   "id": 436969,
+                   "original_language": "en",
+                   "original_title": "The Suicide Squad",
+                   "overview": "Task Force X - aka the Suicide Squad - is dropped on the remote, enemy-infused island of Corto Maltese to find and destroy Jotunheim, a Nazi-era prison and laboratory.",
+                   "popularity": 53.895,
+                   "poster_path": "/aQjO0ifNY8kv8ZA6U61wyNh5sGg.jpg",
+                   "release_date": "2021-07-30",
+                   "title": "The Suicide Squad",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
         {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                16,
-                12
-            ],
-            "id": 576925,
-            "original_language": "ru",
-            "original_title": "Бука",
-            "overview": "Tired of living by her father’s dos and don’ts, rebellious Princess Barbara runs away from the royal palace. She falls into the hands of the monstrous forest bandit Bogey and turns his life upside down. Barbara attempts to dictate her own rules in Bogey’s native forest. Being a creature of the wild, Bogey hates her for that but, as we all know, the line between hatred and love can be very thin...",
-            "popularity": 3.416,
-            "poster_path": "/mrcwgVQ20zlPWxbfeMoSm5iZO29.jpg",
-            "release_date": "2021-09-02",
-            "title": "My Sweet Monster",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                    "adult": false,
+                    "backdrop_path": "/lYlu9PrXnBs0DYSgHQOLOyLNA0n.jpg",
+                    "genre_ids": [
+                        16,
+                        14,
+                        10770,
+                        10751,
+                        28
+                    ],
+                    "id": 730840,
+                    "original_language": "en",
+                    "original_title": "Trollhunters: Rise of the Titans",
+                    "overview": "Arcadia may look like an ordinary town, but it lies at the center of magical and mystical lines that makes it a nexus for many battles among otherworldly creatures, including trolls, aliens and wizards. Now, various heroes will team-up in an epic adventure where they must fight the Arcane Order for control over the magic that binds them all together.",
+                    "popularity": 21.648,
+                    "poster_path": "/oxO88LgzKBlksUW06PKJ7wrutv8.jpg",
+                    "release_date": "2021-07-21",
+                    "title": "Trollhunters: Rise of the Titans",
+                    "video": false,
+                    "vote_average": 0,
+                    "vote_count": 0
+                },
         {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                35
-            ],
-            "id": 809778,
-            "original_language": "es",
-            "original_title": "El club del paro",
-            "overview": "",
-            "popularity": 0.6,
-            "poster_path": null,
-            "release_date": "2021-09-03",
-            "title": "El club del paro",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                    "adult": false,
+                    "backdrop_path": "/8CrlQSvdnIpwXX7jcW4DTew7Kng.jpg",
+                    "genre_ids": [
+                        28,
+                        12
+                    ],
+                    "id": 568620,
+                    "original_language": "en",
+                    "original_title": "Snake Eyes: G.I. Joe Origins",
+                    "overview": "A G.I. Joe spin-off centered around the character of Snake Eyes.",
+                    "popularity": 11.537,
+                    "poster_path": "/vYZc4hMSQMJkm6xQWRhe8q2qvRB.jpg",
+                    "release_date": "2021-07-22",
+                    "title": "Snake Eyes: G.I. Joe Origins",
+                    "video": false,
+                    "vote_average": 0,
+                    "vote_count": 0
+                },
         {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                10749,
-                35
-            ],
-            "id": 790523,
-            "original_language": "it",
-            "original_title": "Ancora più bello",
-            "overview": "",
-            "popularity": 0.794,
-            "poster_path": null,
-            "release_date": "2021-09-03",
-            "title": "Ancora più bello",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                   "adult": false,
+                   "backdrop_path": "/yAF0Zz8t9QG5IqTM1o2Pz7ND5Pv.jpg",
+                   "genre_ids": [
+                       28,
+                       35,
+                       80
+                   ],
+                   "id": 797763,
+                   "original_language": "en",
+                   "original_title": "Just Another Spy Movie",
+                   "overview": "Brayden Cullen directs his first feature film in Just Another Spy Movie. Part comedy spoof, part passionate love letter, Just Another Spy Movie follows a ragtag gang of spies as they must embark on an epic mission to save the world.",
+                   "popularity": 5.538,
+                   "poster_path": "/wYZ3cxaAIT13iBVXwPK2FULNc1U.jpg",
+                   "release_date": "2021-08-20",
+                   "title": "Just Another Spy Movie",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
         {
-            "adult": false,
-            "backdrop_path": "/vHtXYYqINbEUkXaouDFa8C6AVyv.jpg",
-            "genre_ids": [
-                35
-            ],
-            "id": 758213,
-            "original_language": "fi",
-            "original_title": "70 on vain numero",
-            "overview": "Seija Kuula is a superstar singer and an ageless goddess with a career spanning decades and decades. Problems start to arise when Seija falls in love with a younger guy and everybody around her seem to suffer from a bad case of baby fever. Seija orchestrates a masterplan to make everyone happy only to realize that one can not play with love. 70 Is Just a Number is a warm and humorous coming-of-age story – at 70.",
-            "popularity": 0.984,
-            "poster_path": "/wCdRhKxYsEK794knofTxlt0waf9.jpg",
-            "release_date": "2021-09-03",
-            "title": "70 Is Just a Number",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
+                   "adult": false,
+                   "backdrop_path": "/m1uG3V2qrawnrPsARYILnwCRl1A.jpg",
+                   "genre_ids": [
+                       16,
+                       12,
+                       10751,
+                       14
+                   ],
+                   "id": 585083,
+                   "original_language": "en",
+                   "original_title": "Hotel Transylvania: Transformania",
+                   "overview": "Fourth installment in the animated franchise.",
+                   "popularity": 66.643,
+                   "poster_path": "/7dZ6sSrJtTfBfGQhcHJWaMdZnfn.jpg",
+                   "release_date": "2021-07-23",
+                   "title": "Hotel Transylvania: Transformania",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
         {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                16,
-                35
-            ],
-            "id": 650270,
-            "original_language": "ja",
-            "original_title": "リョーマ! 新生劇場版テニスの王子様",
-            "overview": "",
-            "popularity": 1.77,
-            "poster_path": "/8GT56fW9PIMBKFO5ygNMN4xm4bT.jpg",
-            "release_date": "2021-09-03",
-            "title": "Ryouma! The Prince of Tennis Shinsei Gekijouban Tennis no Ouji-sama",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        }
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       27
+                   ],
+                   "id": 717728,
+                   "original_language": "en",
+                   "original_title": "Jeepers Creepers: Reborn",
+                   "overview": "The Horror Hound festival holds its first-ever event in Louisiana, where it attracts hundreds of geeks, freaks, and die-hard horror fans from far and wide. Among them is fanboy Chase and his girlfriend Laine, who is forced to come along for the ride. But as the event approaches, Laine begins to experience unexplained premonitions and disturbing visions associated with the town’s past, and in particular, local legend/urban myth The Creeper. As the festival arrives and the blood-soaked entertainment builds to a frenzy, Laine believes that something unearthly has been summoned…and that she is at the center of it.",
+                   "popularity": 12.467,
+                   "poster_path": "/g3jrVqSls1ItQvw6TXWMVcFS6FH.jpg",
+                   "release_date": "2021-08-26",
+                   "title": "Jeepers Creepers: Reborn",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
+        {
+                   "adult": false,
+                   "backdrop_path": "/lUBRQi0s69UrLMTfIgUgHqWusKZ.jpg",
+                   "genre_ids": [
+                       18,
+                       14,
+                       27
+                   ],
+                   "id": 559907,
+                   "original_language": "en",
+                   "original_title": "The Green Knight",
+                   "overview": "An epic fantasy adventure based on the timeless Arthurian legend, The Green Knight tells the story of Sir Gawain, King Arthur's reckless and headstrong nephew, who embarks on a daring quest to confront the eponymous Green Knight, a gigantic emerald-skinned stranger and tester of men.",
+                   "popularity": 7.738,
+                   "poster_path": "/if4hw3Ou5Sav9Em7WWHj66mnywp.jpg",
+                   "release_date": "2021-07-29",
+                   "title": "The Green Knight",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
+       
+        {
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       18
+                   ],
+                   "id": 636358,
+                   "original_language": "ko",
+                   "original_title": "노가리",
+                   "overview": "One woman and six men work for 'Nogari Films', a self-sufficient company. In addition to their respective positions, they play every role needed to make movies. One day, they get a phone call, and a miraculous opportunity to get an investment comes to them.",
+                   "popularity": 1.522,
+                   "poster_path": "/4AqV41myhq8rcH5T2TvedsLaI5M.jpg",
+                   "release_date": "2021-03-31",
+                   "title": "We Gon′ Be Alright",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },  {
+                   "adult": false,
+                   "backdrop_path": "/zvZm9q9r2D3VTXihKhnkqvm8llA.jpg",
+                   "genre_ids": [
+                       18
+                   ],
+                   "id": 653712,
+                   "original_language": "en",
+                   "original_title": "The Killing of Two Lovers",
+                   "overview": "David desperately tries to keep his family of six together during a separation from his wife. They both agree to see other people but David struggles to grapple with his wife’s new relationship.",
+                   "popularity": 5.477,
+                   "poster_path": "/c2Vd352RnjDY4lVmyuCnAnrVGZC.jpg",
+                   "release_date": "2021-02-23",
+                   "title": "The Killing of Two Lovers",
+                   "video": false,
+                   "vote_average": 7,
+                   "vote_count": 4
+               },
+               {
+                        "adult": false,
+                        "backdrop_path": "/pm8F3rTk4N3NXSQeM9xQdM9uURm.jpg",
+                        "genre_ids": [
+                            18
+                        ],
+                        "id": 664596,
+                        "original_language": "en",
+                        "original_title": "Funny Face",
+                        "overview": "In a Brooklyn threatened by disfigurement from greedy urban developers, two young people meet in a late-night bodega. Their unexpected bond takes on a romantic tone and brings solace to these two superheroes who are powerless in the face of oppression.",
+                        "popularity": 9.33,
+                        "poster_path": "/fD2ZAcCt4BEhKGpTxdBFoSRCn1Y.jpg",
+                        "release_date": "2021-03-30",
+                        "title": "Funny Face",
+                        "video": false,
+                        "vote_average": 5,
+                        "vote_count": 1
+                    },
+               {
+                          "adult": false,
+                          "backdrop_path": "/q2mpoiIsk1IYJd88tFaaMHaDSXF.jpg",
+                          "genre_ids": [
+                              99
+                          ],
+                          "id": 813326,
+                          "original_language": "en",
+                          "original_title": "Yukon's Wild Grizzlies",
+                          "overview": "Deep in Canada's remote Yukon, a dramatic coming of age story unfolds involving an adolescent grizzly named Sophie. Wildlife filmmaker Phil Timpany has chronicled her all her life. Now he's capturing her first steps into adulthood--and motherhood--and the many challenges threatening both her and her rambunctious cubs. Witness Sophie's journey as she learns the ropes, trying to balance her own needs with feeding and protecting her young. More than half of all grizzly cubs die in their first year, so Sophie has little room for error.",
+                          "popularity": 0.743,
+                          "poster_path": "/wNYlmdMCJOqdsxysPcDshARFoS5.jpg",
+                          "release_date": "2021-01-01",
+                          "title": "Yukon's Wild Grizzlies",
+                          "video": false,
+                          "vote_average": 0,
+                          "vote_count": 0
+                      },
+               {
+                          "adult": false,
+                          "backdrop_path": "/ukVaYhG1yEYoGt5WLPuAyuAQ6QZ.jpg",
+                          "genre_ids": [
+                              99
+                          ],
+                          "id": 786043,
+                          "original_language": "en",
+                          "original_title": "Cause of Life: Jerry",
+                          "overview": "A devout Christian, Jerry Givens was Virginia’s chief executioner, before he became an advocate of abolishing the death penalty.",
+                          "popularity": 0.6,
+                          "poster_path": "/hltTf7YoJwpP1ujXreeSvDDcSen.jpg",
+                          "release_date": "2021-01-04",
+                          "title": "Cause of Life: Jerry",
+                          "video": false,
+                          "vote_average": 0,
+                          "vote_count": 0
+                      },
+               {
+                   "adult": false,
+                   "backdrop_path": "/2SstlMs3glSbBupPzrGhRY2RolN.jpg",
+                   "genre_ids": [
+                       99
+                   ],
+                   "id": 783135,
+                   "original_language": "en",
+                   "original_title": "The Man Who Fell From The Sky",
+                   "overview": "The Man Who Fell From The Sky is a Channel 4 documentary. It tells the fascinating story of two men who stowed away on a flight from South Africa to the UK in 2012.  But what was their story, and what happened to the two men?  The documentary is billed as a ‘stranger than fiction’ story, that features two men who made the ‘most extreme journey’ ever taken by humans.  South Africans Themba Cabeka and Carlito Vale made the trip clinging onto the undercarriage of the plane.  Together, they made the 11-hour, 5,639-miles trip braving -60C temperatures.  The incredible journey made news around the world.",
+                   "popularity": 4.122,
+                   "poster_path": "/6kMDq00WPPvCzdyBGkRxliyOLDq.jpg",
+                   "release_date": "2021-01-04",
+                   "title": "The Man Who Fell From The Sky",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
+               {
+                          "adult": false,
+                          "backdrop_path": "/pynYpW5ShVNVkD8uUMK39PZLI22.jpg",
+                          "genre_ids": [],
+                          "id": 783140,
+                          "original_language": "en",
+                          "original_title": "Days To Come",
+                          "overview": "Andrew Rodman is running the family business and failing at it. The workers are out on strike and things are getting desperate. “Papa would have known what to do,” his sister Cora nags, “and without wasting time and money.” But it’s too late, Rodman is bringing in strikebreakers, naively failing to anticipate the disastrous impact that this will have on his family and their place in the community where they have lived for generations.",
+                          "popularity": 0.6,
+                          "poster_path": "/vEeDlQr5Kbsonzbc2SWoyq7pw6M.jpg",
+                          "release_date": "2021-01-04",
+                          "title": "Days To Come",
+                          "video": false,
+                          "vote_average": 0,
+                          "vote_count": 0
+                      },
+               {
+                          "adult": false,
+                          "backdrop_path": "/9sKa9alBl0uvt7OUSDamApYB2Z0.jpg",
+                          "genre_ids": [
+                              35,
+                              10749
+                          ],
+                          "id": 792003,
+                          "original_language": "zh",
+                          "original_title": "大红包",
+                          "overview": "",
+                          "popularity": 1.645,
+                          "poster_path": "/3hMsRuphxdoJOCkS6czUGro4u7s.jpg",
+                          "release_date": "2021-01-22",
+                          "title": "Big Red Envelope",
+                          "video": false,
+                          "vote_average": 0,
+                          "vote_count": 0
+                      },
+               {
+                           "adult": false,
+                           "backdrop_path": "/1TZBypbCOPRIddeUp8z2qCa2ke0.jpg",
+                           "genre_ids": [
+                               53
+                           ],
+                           "id": 776797,
+                           "original_language": "zh",
+                           "original_title": "哭悲",
+                           "overview": "With the spread of the new virus, people all over the world are becoming numb to the virus. No one believes that the mutation of the virus and the Tibet crisis are coming. Junzhe and his girlfriend Kai Ting discuss when the epidemic will end, but life remains as usual. One morning, after Junzhe drove Kai Ting to work and separated, the two witnessed attacks by unknown thugs: including the breakfast shop owner being beaten and bitten by his grandmother, the neighbor next door ran into the street with a weapon, and frequent riots in various places. , Panic and screams spread throughout the city. Infected anomalous humans are everywhere, and bloody pictures of being tortured and killed are all over the street. Who can survive the horror of murder? How can Junzhe find a way to survive and save his beloved girlfriend who has gone missing?",
+                           "popularity": 14.103,
+                           "poster_path": "/wZObU4qXV0PyKGPTD8oVHU8siUL.jpg",
+                           "release_date": "2021-01-22",
+                           "title": "The Sadness",
+                           "video": false,
+                           "vote_average": 0,
+                           "vote_count": 0
+                       },
+               {
+                          "adult": false,
+                          "backdrop_path": "/sZa8IL8UpywBsjxGpTgBwahtirj.jpg",
+                          "genre_ids": [
+                              9648,
+                              53
+                          ],
+                          "id": 795319,
+                          "original_language": "en",
+                          "original_title": "Life in Technicolor",
+                          "overview": "A story of intrigue, suspense and beauty, set in the streets of Milan, with a mysterious succession of encounters, déjà-vu and enigmatic glances echoing the surreal atmospheres of Alfred Hitchcock’s masterpieces. A unique sequence of places, evocations and indelible feelings bring the Maison back to its timeless bond with the world of cinema, through a subtle and impenetrable plot, in a growing tension between elegance and passion, rigor and colour.",
+                          "popularity": 1.323,
+                          "poster_path": "/q4wHFQ7AHqL8Wp6G4BWS4yYSzTJ.jpg",
+                          "release_date": "2021-01-26",
+                          "title": "Life in Technicolor",
+                          "video": false,
+                          "vote_average": 0,
+                          "vote_count": 0
+                      },
+               {
+                          "adult": false,
+                          "backdrop_path": null,
+                          "genre_ids": [],
+                          "id": 824345,
+                          "original_language": "en",
+                          "original_title": "Revenant",
+                          "overview": "Hand-painted frames that oscillate between red and blue. Alongside the frames emptied of figuration, the relentless tones of Revenant form a wall of sound, an intense viewing and listening experience.",
+                          "popularity": 1.96,
+                          "poster_path": "/uakuZrBHaCKk5hfZqrmMVtVHe2U.jpg",
+                          "release_date": "2021-04-30",
+                          "title": "Revenant",
+                          "video": false,
+                          "vote_average": 0,
+                          "vote_count": 0
+                      },
+               {
+                          "adult": false,
+                          "backdrop_path": null,
+                          "genre_ids": [
+                              99
+                          ],
+                          "id": 809368,
+                          "original_language": "hi",
+                          "original_title": "CoVidGo",
+                          "overview": "People worldwide are apprehensive to take the CoVid Vaccine, even the front warriors, the doctors. In the film, Uma, a doctor, is apprehensive about taking the vaccine. She is counseled by her senior to take the vaccine and in the end she counsels her friends worldwide about the vaccine.",
+                          "popularity": 0.765,
+                          "poster_path": "/mEMgcPi9uO71CQbVYZePqU9owZe.jpg",
+                          "release_date": "2021-01-01",
+                          "title": "CoVidGo",
+                          "video": false,
+                          "vote_average": 0,
+                          "vote_count": 0
+                      },
+               {
+                          "adult": false,
+                          "backdrop_path": null,
+                          "genre_ids": [
+                              53,
+                              878,
+                              18
+                          ],
+                          "id": 810901,
+                          "original_language": "en",
+                          "original_title": "The Sun Vanished",
+                          "overview": "Based on the viral Twitter story of the same name, The Sun Vanished follows Skylar and Quinn as they survive the first day of the sun's disappearance. But as they dig up their past, they come face to face with the unearthly threat invading the planet while struggling to come to terms with their own mistakes and choices to carve a path forward",
+                          "popularity": 3.842,
+                          "poster_path": "/4m2lr54d7DAeckkfHqDU2FR27A5.jpg",
+                          "release_date": "2021-04-30",
+                          "title": "The Sun Vanished",
+                          "video": false,
+                          "vote_average": 0,
+                          "vote_count": 0
+                      },
+                      {
+                          "adult": false,
+                          "backdrop_path": "/tZWTkJFJe5DwzSSkCc4L7VghJmZ.jpg",
+                          "genre_ids": [
+                              27
+                          ],
+                          "id": 810271,
+                          "original_language": "en",
+                          "original_title": "The Resort",
+                          "overview": "Four friends head to Hawaii to investigate reports of a haunting at an abandoned resort in hopes of finding the infamous Half-Faced Girl. When they arrive, they soon learn you should be careful what you wish for.",
+                          "popularity": 27.852,
+                          "poster_path": "/maJs2KmP4R0AmkAjSk1iadCL1De.jpg",
+                          "release_date": "2021-04-30",
+                          "title": "The Resort",
+                          "video": false,
+                          "vote_average": 3.3,
+                          "vote_count": 3
+                      },
+                      {
+                                 "adult": false,
+                                 "backdrop_path": null,
+                                 "genre_ids": [],
+                                 "id": 823427,
+                                 "original_language": "en",
+                                 "original_title": "Don't Let Her In",
+                                 "overview": "When an attractive young couple rents out a room in their spacious loft to an eccentric, beautiful female artist, they soon live to regret it. Slowly but surely, their seductive new tenant invades their minds, their beds, the very fabric of their lives",
+                                 "popularity": 5.379,
+                                 "poster_path": "/dx5DKaH0svcSxBPcPPvlh2QXnWZ.jpg",
+                                 "release_date": "2021-04-30",
+                                 "title": "Don't Let Her In",
+                                 "video": false,
+                                 "vote_average": 0,
+                                 "vote_count": 0
+                             },
+                      {
+                                  "adult": false,
+                                  "backdrop_path": null,
+                                  "genre_ids": [
+                                      53
+                                  ],
+                                  "id": 665133,
+                                  "original_language": "ml",
+                                  "original_title": "Malik",
+                                  "overview": "A boy born with wings must hide it from society, until an incident forces him to use them. His orphanage and his love interest are the only ones who know about his gifts.",
+                                  "popularity": 2.694,
+                                  "poster_path": "/xLSOpgy8K7UEjFZTTCmRXsBBJNo.jpg",
+                                  "release_date": "2021-05-13",
+                                  "title": "Malik",
+                                  "video": false,
+                                  "vote_average": 0,
+                                  "vote_count": 0
+                              },
     ],
     "total_pages": 358,
     "total_results": 7158
