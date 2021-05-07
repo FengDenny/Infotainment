@@ -16,6 +16,14 @@
 		5512857D263CF01900278373 /* TVShowImageScrollHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512857C263CF01900278373 /* TVShowImageScrollHStackView.swift */; };
 		55128583263CF75E00278373 /* TVShowScrollHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55128582263CF75E00278373 /* TVShowScrollHStackView.swift */; };
 		55128586263DEA4300278373 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55128585263DEA4300278373 /* SafariView.swift */; };
+		5512858E263E2B6F00278373 /* tv_show_anime_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 5512858D263E2B6E00278373 /* tv_show_anime_list.json */; };
+		55128591263E2E7C00278373 /* tv_show_korean_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 55128590263E2E7C00278373 /* tv_show_korean_list.json */; };
+		5512859A263E411400278373 /* AnimeShowScrollHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55128599263E411400278373 /* AnimeShowScrollHStackView.swift */; };
+		5512859E263E444000278373 /* KoreanShowScrollVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512859D263E444000278373 /* KoreanShowScrollVStackView.swift */; };
+		551285A3263E4ADB00278373 /* DiscoverMovieImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551285A2263E4ADB00278373 /* DiscoverMovieImageCarouselView.swift */; };
+		551285A7263E4C5200278373 /* DiscoverMovieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551285A6263E4C5200278373 /* DiscoverMovieImageView.swift */; };
+		551285AA263E502200278373 /* MovieTrailerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551285A9263E502200278373 /* MovieTrailerView.swift */; };
+		551285AD263E531700278373 /* DiscoverMovieTrailerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551285AC263E531700278373 /* DiscoverMovieTrailerView.swift */; };
 		552879D9263B3CD700B3A8F8 /* TVShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879D8263B3CD700B3A8F8 /* TVShowModel.swift */; };
 		552879DC263B3CFC00B3A8F8 /* TVShowExtensionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879DB263B3CFC00B3A8F8 /* TVShowExtensionModel.swift */; };
 		552879E0263B3D4000B3A8F8 /* TVShowAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552879DF263B3D4000B3A8F8 /* TVShowAPIModel.swift */; };
@@ -57,6 +65,10 @@
 		55B8DFED263926050040F40C /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B8DFEC263926050040F40C /* MovieDetailView.swift */; };
 		55B8DFF226392DCE0040F40C /* MovieDetailLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B8DFF126392DCE0040F40C /* MovieDetailLazyView.swift */; };
 		55B8DFF626392E2D0040F40C /* MovieDetailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B8DFF526392E2D0040F40C /* MovieDetailImageView.swift */; };
+		55F58D9A263FBC6D00192661 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F58D99263FBC6D00192661 /* SearchView.swift */; };
+		55F58D9D263FBCE800192661 /* SeachBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F58D9C263FBCE800192661 /* SeachBar.swift */; };
+		55F58DA1263FBEA200192661 /* SearchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F58DA0263FBEA200192661 /* SearchState.swift */; };
+		55F58DA52642482800192661 /* TVShowOverviewScrollHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F58DA42642482700192661 /* TVShowOverviewScrollHStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +81,14 @@
 		5512857C263CF01900278373 /* TVShowImageScrollHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowImageScrollHStackView.swift; sourceTree = "<group>"; };
 		55128582263CF75E00278373 /* TVShowScrollHStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowScrollHStackView.swift; sourceTree = "<group>"; };
 		55128585263DEA4300278373 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		5512858D263E2B6E00278373 /* tv_show_anime_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tv_show_anime_list.json; sourceTree = "<group>"; };
+		55128590263E2E7C00278373 /* tv_show_korean_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tv_show_korean_list.json; sourceTree = "<group>"; };
+		55128599263E411400278373 /* AnimeShowScrollHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeShowScrollHStackView.swift; sourceTree = "<group>"; };
+		5512859D263E444000278373 /* KoreanShowScrollVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanShowScrollVStackView.swift; sourceTree = "<group>"; };
+		551285A2263E4ADB00278373 /* DiscoverMovieImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovieImageCarouselView.swift; sourceTree = "<group>"; };
+		551285A6263E4C5200278373 /* DiscoverMovieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovieImageView.swift; sourceTree = "<group>"; };
+		551285A9263E502200278373 /* MovieTrailerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrailerView.swift; sourceTree = "<group>"; };
+		551285AC263E531700278373 /* DiscoverMovieTrailerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovieTrailerView.swift; sourceTree = "<group>"; };
 		552879D8263B3CD700B3A8F8 /* TVShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowModel.swift; sourceTree = "<group>"; };
 		552879DB263B3CFC00B3A8F8 /* TVShowExtensionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowExtensionModel.swift; sourceTree = "<group>"; };
 		552879DF263B3D4000B3A8F8 /* TVShowAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowAPIModel.swift; sourceTree = "<group>"; };
@@ -113,6 +133,10 @@
 		55B8DFEC263926050040F40C /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		55B8DFF126392DCE0040F40C /* MovieDetailLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailLazyView.swift; sourceTree = "<group>"; };
 		55B8DFF526392E2D0040F40C /* MovieDetailImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailImageView.swift; sourceTree = "<group>"; };
+		55F58D99263FBC6D00192661 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		55F58D9C263FBCE800192661 /* SeachBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachBar.swift; sourceTree = "<group>"; };
+		55F58DA0263FBEA200192661 /* SearchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchState.swift; sourceTree = "<group>"; };
+		55F58DA42642482700192661 /* TVShowOverviewScrollHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowOverviewScrollHStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +158,32 @@
 				5512856F263CD97E00278373 /* TVShowDetailImageView.swift */,
 			);
 			path = ShowDetail;
+			sourceTree = "<group>";
+		};
+		55128597263E40CA00278373 /* Anime */ = {
+			isa = PBXGroup;
+			children = (
+				55128599263E411400278373 /* AnimeShowScrollHStackView.swift */,
+			);
+			path = Anime;
+			sourceTree = "<group>";
+		};
+		5512859C263E441800278373 /* Drama */ = {
+			isa = PBXGroup;
+			children = (
+				5512859D263E444000278373 /* KoreanShowScrollVStackView.swift */,
+			);
+			path = Drama;
+			sourceTree = "<group>";
+		};
+		551285A1263E4A9900278373 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				551285A2263E4ADB00278373 /* DiscoverMovieImageCarouselView.swift */,
+				551285A6263E4C5200278373 /* DiscoverMovieImageView.swift */,
+				551285AC263E531700278373 /* DiscoverMovieTrailerView.swift */,
+			);
+			path = Discover;
 			sourceTree = "<group>";
 		};
 		552879D5263B34F000B3A8F8 /* Extension */ = {
@@ -199,6 +249,8 @@
 		55B8DF9E2638E5B00040F40C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55F58D9C263FBCE800192661 /* SeachBar.swift */,
+				55F58D99263FBC6D00192661 /* SearchView.swift */,
 				55128585263DEA4300278373 /* SafariView.swift */,
 				55B8DFE5263904070040F40C /* ActivityIndicatorView.swift */,
 				55B8DFE2263903D70040F40C /* LoadingView.swift */,
@@ -245,6 +297,8 @@
 				55B8DFB32638E64D0040F40C /* search_movie.json */,
 				55B8DFB12638E64D0040F40C /* show_info.json */,
 				55B8DFAF2638E64D0040F40C /* tv_show_list.json */,
+				5512858D263E2B6E00278373 /* tv_show_anime_list.json */,
+				55128590263E2E7C00278373 /* tv_show_korean_list.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -255,6 +309,7 @@
 				55287A13263C81EF00B3A8F8 /* Navigation.swift */,
 				55B8DFC12638E7690040F40C /* Utility.swift */,
 				55B8DFD52638F3280040F40C /* Bundle.swift */,
+				55F58DA0263FBEA200192661 /* SearchState.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -284,12 +339,14 @@
 		55B8DFA62638E5FA0040F40C /* Movie */ = {
 			isa = PBXGroup;
 			children = (
+				551285A1263E4A9900278373 /* Discover */,
 				55B8DFF026392D790040F40C /* MovieDetail */,
 				55B8DFCE2638E94F0040F40C /* MovieImageOverviewView.swift */,
 				55287A0B263BAC4500B3A8F8 /* MovieImageView.swift */,
 				55B8DFD82638F5580040F40C /* MovieScrollHStackView.swift */,
 				55287A08263BAC2D00B3A8F8 /* MovieImageScrollHStackView.swift */,
 				55B8DFDF263901590040F40C /* MoviesHomeScreenView.swift */,
+				551285A9263E502200278373 /* MovieTrailerView.swift */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -297,9 +354,12 @@
 		55B8DFA72638E6000040F40C /* Show */ = {
 			isa = PBXGroup;
 			children = (
+				5512859C263E441800278373 /* Drama */,
+				55128597263E40CA00278373 /* Anime */,
 				55128567263CD92F00278373 /* ShowDetail */,
 				55128578263CEF2B00278373 /* TVShowImageView.swift */,
 				55128582263CF75E00278373 /* TVShowScrollHStackView.swift */,
+				55F58DA42642482700192661 /* TVShowOverviewScrollHStack.swift */,
 				55128572263CED8000278373 /* TVShowImageOverviewView.swift */,
 				552879F2263B46F700B3A8F8 /* TVShowScrollVStackView.swift */,
 				5512857C263CF01900278373 /* TVShowImageScrollHStackView.swift */,
@@ -405,8 +465,10 @@
 				55B8DFB72638E64D0040F40C /* show_info.json in Resources */,
 				55B8DF952638E5A20040F40C /* Preview Assets.xcassets in Resources */,
 				55B8DFB42638E64D0040F40C /* movie_info.json in Resources */,
+				5512858E263E2B6F00278373 /* tv_show_anime_list.json in Resources */,
 				55B8DFB52638E64D0040F40C /* tv_show_list.json in Resources */,
 				55B8DFB62638E64D0040F40C /* movie_list.json in Resources */,
+				55128591263E2E7C00278373 /* tv_show_korean_list.json in Resources */,
 				55B8DF922638E5A20040F40C /* Assets.xcassets in Resources */,
 				55B8DFB92638E64D0040F40C /* search_movie.json in Resources */,
 				55B8DFB82638E64D0040F40C /* movie_discover.json in Resources */,
@@ -426,7 +488,10 @@
 				55B8DFAC2638E6320040F40C /* imageLoader.swift in Sources */,
 				55B8DF902638E59C0040F40C /* MainView.swift in Sources */,
 				55B8DFBF2638E6F90040F40C /* MovieModel.swift in Sources */,
+				551285AD263E531700278373 /* DiscoverMovieTrailerView.swift in Sources */,
+				551285A7263E4C5200278373 /* DiscoverMovieImageView.swift in Sources */,
 				55B8DFD62638F3280040F40C /* Bundle.swift in Sources */,
+				55F58DA1263FBEA200192661 /* SearchState.swift in Sources */,
 				552879D9263B3CD700B3A8F8 /* TVShowModel.swift in Sources */,
 				55B8DFEA263923990040F40C /* MovieDetailViewModel.swift in Sources */,
 				55B8DF8E2638E59C0040F40C /* InfotainmentApp.swift in Sources */,
@@ -440,10 +505,12 @@
 				55287A10263BDE7E00B3A8F8 /* Animation+Extension.swift in Sources */,
 				55B8DFBC2638E6AE0040F40C /* FetchMovieModel.swift in Sources */,
 				55B8DFDC263900390040F40C /* MovieListViewModel.swift in Sources */,
+				5512859E263E444000278373 /* KoreanShowScrollVStackView.swift in Sources */,
 				552879E0263B3D4000B3A8F8 /* TVShowAPIModel.swift in Sources */,
 				552879FC263B537E00B3A8F8 /* Font+Extension.swift in Sources */,
 				55B8DFC22638E7690040F40C /* Utility.swift in Sources */,
 				552879F6263B473000B3A8F8 /* TVShowCardView.swift in Sources */,
+				551285A3263E4ADB00278373 /* DiscoverMovieImageCarouselView.swift in Sources */,
 				55B8DFE0263901590040F40C /* MoviesHomeScreenView.swift in Sources */,
 				55128570263CD97E00278373 /* TVShowDetailImageView.swift in Sources */,
 				5512857D263CF01900278373 /* TVShowImageScrollHStackView.swift in Sources */,
@@ -454,11 +521,16 @@
 				55B8DFF626392E2D0040F40C /* MovieDetailImageView.swift in Sources */,
 				55128569263CD95B00278373 /* TVShowDetailView.swift in Sources */,
 				55128579263CEF2B00278373 /* TVShowImageView.swift in Sources */,
+				55F58D9A263FBC6D00192661 /* SearchView.swift in Sources */,
+				5512859A263E411400278373 /* AnimeShowScrollHStackView.swift in Sources */,
 				55128586263DEA4300278373 /* SafariView.swift in Sources */,
+				551285AA263E502200278373 /* MovieTrailerView.swift in Sources */,
 				55128583263CF75E00278373 /* TVShowScrollHStackView.swift in Sources */,
 				55287A14263C81EF00B3A8F8 /* Navigation.swift in Sources */,
+				55F58D9D263FBCE800192661 /* SeachBar.swift in Sources */,
 				55B8DFC62638E80D0040F40C /* MovieAPIModel.swift in Sources */,
 				55128561263CCB8200278373 /* TVShowsHomeScreenView.swift in Sources */,
+				55F58DA52642482800192661 /* TVShowOverviewScrollHStack.swift in Sources */,
 				55287A19263C885A00B3A8F8 /* Color+Extension.swift in Sources */,
 				552879EC263B424800B3A8F8 /* TVShowListViewModel.swift in Sources */,
 				552879F3263B46F700B3A8F8 /* TVShowScrollVStackView.swift in Sources */,
