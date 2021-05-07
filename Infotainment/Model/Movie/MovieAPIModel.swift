@@ -6,9 +6,12 @@
 //
 
 import Foundation
+import Combine
 
 
-class MovieAPIModel: FetchMovieModel {
+class MovieAPIModel: FetchMovieModel,  ObservableObject {
+        @Published var show = [Shows]()
+    
     
        static let shared = MovieAPIModel()
        private init() {}
@@ -17,18 +20,34 @@ class MovieAPIModel: FetchMovieModel {
        private let urlSession = URLSession.shared
        private let jsonDecoder = Utility.jsonDecoder
     
+        private var currentPage = 2
+    private var totalPages = 500
+    private var cancellable: AnyCancellable?
+       
+    
+    
+    
     
     func fetchAllMovies(from endpoint: MovieListEndpoint, completion: @escaping (Result<MovieModel, MovieError>) -> ())
     {
+     
         guard let url = URL(string: "\(baseAPIURL)/movie/\(endpoint.rawValue)") else {
                    completion(.failure(.invalidEndpoint))
                    return
                }
+        
+        
+        
+ 
         self.loadURLAndDecode(url: url, params:
-                                ["sort_by":"primary_release_date.asc", "primary_release_year":"2021", "page":"2"],
-                                completion: completion)
+                                ["sort_by":"primary_release_date.asc", "primary_release_year":"2021", "page":"\(currentPage)"],
+                              completion: completion)
+        
+        
     }
     
+    
+  
 
     func fetchSingleMovie(id: Int, completion: @escaping (Result<Movie, MovieError>) -> ())
     {
@@ -54,6 +73,7 @@ class MovieAPIModel: FetchMovieModel {
                ], completion: completion)
     }
     
+   
     
 // MARK: Load Movie API url and decode
     private func loadURLAndDecode<D: Decodable>(url: URL, params: [String: String]? = nil, completion: @escaping (Result<D, MovieError>) -> ()) {
