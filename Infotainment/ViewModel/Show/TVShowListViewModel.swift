@@ -23,7 +23,7 @@ class TVShowListViewModel: ObservableObject {
     }
     
     
-    func loadMovies(with endpoint: ShowEndpoint)
+    func loadShows(with endpoint: ShowEndpoint)
     {
         self.shows = nil
         self.isLoading = false
