@@ -1,25 +1,6 @@
 {
     "page": 319,
     "results": [
- 
- {
-             "adult": false,
-             "backdrop_path": null,
-             "genre_ids": [
-                 27
-             ],
-             "id": 780268,
-             "original_language": "en",
-             "original_title": "Apex Predators",
-             "overview": "The bodies of beach goers begin washing ashore during the grand opening of a new resort. The town Mayor (Mel Novak) attempts to cover it up with dire results.",
-             "popularity": 5.251,
-             "poster_path": "/sHjjy6a7KCjnfTZTug9ne12N63T.jpg",
-             "release_date": "2021-05-11",
-             "title": "Apex Predators",
-             "video": false,
-             "vote_average": 0,
-             "vote_count": 0
-         },
  {
             "adult": false,
             "backdrop_path": null,
@@ -40,135 +21,28 @@
             "vote_average": 0,
             "vote_count": 0
         },
-        {
-            "adult": false,
-            "backdrop_path": "/v76uEArxVaoJy8DwWMSo4VG81Ce.jpg",
-            "genre_ids": [
-                10770,
-                10749
-            ],
-            "id": 778997,
-            "original_language": "en",
-            "original_title": "A Whirlwind Wedding",
-            "overview": "Darcy, a talented event planner returns to her home town to plan her mother’s wedding. She’s having trouble accepting her stepfather-to-be and quickly Darcy’s obsession with perfection begins to clash with her mother’s wishes for a low-key celebration —especially when it comes to handsome and charming Kyle, the chef Darcy deems inadequate for catering the event. But as complications arise—both personal and professional—it’s Kyle who is able to help her pull off the big day and help her find the love she’s been looking for…",
-            "popularity": 9.069,
-            "poster_path": "/b4f28Ov3oEUdHQS2DVMH7kXJj7W.jpg",
-            "release_date": "2021-05-10",
-            "title": "A Whirlwind Wedding",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-                   "adult": false,
-                   "backdrop_path": null,
-                   "genre_ids": [
-                       27
-                   ],
-                   "id": 815128,
-                   "original_language": "en",
-                   "original_title": "Death Rink",
-                   "overview": "Roller Boogie meets Friday the 13th in a wild new skating spookfest for the spring! The night staff of roller rink are stalked and killed by a mysterious figure who they believe may be the spirit of a teenager who was accidentally killed there years ago.  Amanda Courtney, Caedmon Holland, and Alan Humphrey star.",
-                   "popularity": 4.997,
-                   "poster_path": "/jnwcfFyGjm91IVdEgk5HLKaZ2Y3.jpg",
-                   "release_date": "2021-05-11",
-                   "title": "Death Rink",
-                   "video": false,
-                   "vote_average": 0,
-                   "vote_count": 0
-               },
-               {
-                   "adult": false,
-                   "backdrop_path": null,
-                   "genre_ids": [
-                       18
-                   ],
-                   "id": 757902,
-                   "original_language": "id",
-                   "original_title": "Losmen Bu Broto",
-                   "overview": "Based on a legendary Indonesian series in 1980s.",
-                   "popularity": 3.045,
-                   "poster_path": "/un3TpRfS6xT1kclqMKWmaTm9sgd.jpg",
-                   "release_date": "2021-05-11",
-                   "title": "Losmen Bu Broto",
-                   "video": false,
-                   "vote_average": 0,
-                   "vote_count": 0
-               },
  {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [],
-            "id": 824995,
-            "original_language": "en",
-            "original_title": "Zara and Mike: No Nonsense Royals",
-            "overview": "The Tindalls are on the surface an unlikely pairing of a Wakefield-born rugby union player and the daughter of the Princess Royal born and bred in a royal palace. This programme looks at their life together, from the highs to the lows, revealing how they carved out successful careers for themselves and supported each other along the way.",
-            "popularity": 0,
-            "poster_path": "/yMeIQfCrnwrlDI6uYbfZbEOCk4f.jpg",
-            "release_date": "2021-05-01",
-            "title": "Zara and Mike: No Nonsense Royals",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
- {
-             "adult": false,
-             "backdrop_path": "/j3i1l0dYhVNMgHlVhXlAbvdfAy6.jpg",
-             "genre_ids": [
-                 28
-             ],
-             "id": 817984,
-             "original_language": "en",
-             "original_title": "UFC on ESPN 23: Reyes vs. Prochazka",
-             "overview": "UFC on ESPN: Reyes vs. Procházka (also known as UFC on ESPN 23 and UFC Vegas 25) was a mixed martial arts event produced by the Ultimate Fighting Championship that took place on May 1, 2021 at the UFC Apex facility in Enterprise, Nevada, part of the Las Vegas Metropolitan Area, United States.\r Dominick Reyes vs. Jiří Procházka\r Giga Chikadze vs. Cub Swanson\r Ion Cuțelaba vs. Dustin Jacoby\r Sean Strickland vs. Krzysztof Jotko\r Merab Dvalishvili vs. Cody Stamann",
-             "popularity": 36.33,
-             "poster_path": "/sk6eyXdSM7KfhEhBlofuFLFsU8S.jpg",
-             "release_date": "2021-05-01",
-             "title": "UFC on ESPN 23: Reyes vs. Prochazka",
-             "video": false,
-             "vote_average": 0,
-             "vote_count": 0
-         },
- {
-            "adult": false,
-            "backdrop_path": "/Ap4z34d8jnt5skKpYYELmKL4Dwq.jpg",
-            "genre_ids": [
-                28,
-                35,
-                10751
-            ],
-            "id": 824680,
-            "original_language": "en",
-            "original_title": "Police Academy Collection Part Two",
-            "overview": "Police Academy is a series of American comedy films, the first six of which were made in the 1980s. The seventh and to date last installment, Mission to Moscow, was released in 1994. The new film is scheduled for production for 2014. The series opened with Police Academy (1984) which started with the premise that a new mayor had announced a policy requiring the police department to accept all willing recruits. The movie followed a group of misfit recruits in their attempts to prove themselves capable of being police officers. The main character, Carey Mahoney (Steve Guttenberg), was a repeat offender who was forced to join the police academy as punishment.",
-            "popularity": 1.4,
-            "poster_path": "/oaZaZCmJwA6rabf6UTltCdG27FU.jpg",
-            "release_date": "2021-05-01",
-            "title": "Police Academy Collection Part Two",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-                   "adult": false,
-                   "backdrop_path": null,
-                   "genre_ids": [
-                       27,
-                       53,
-                       80
-                   ],
-                   "id": 482373,
-                   "original_language": "en",
-                   "original_title": "Don't Breathe 2",
-                   "overview": "The Blind Man has been hiding out for years in an isolated cabin and has taken in and raised a young girl who lost her parents in a house fire. Their quiet existence is shattered when a group of kidnappers show up and take the girl, forcing the Blind Man to leave his safe haven to rescue her.",
-                   "popularity": 17.77,
-                   "poster_path": "/uze1RN75hOXAJz0kGBfDizFLRmD.jpg",
-                   "release_date": "2021-08-12",
-                   "title": "Don't Breathe 2",
-                   "video": false,
-                   "vote_average": 0,
-                   "vote_count": 0
-               },
+           "adult": false,
+           "backdrop_path": "/naijdFJuz74E2A8mtruzRUIcK95.jpg",
+           "genre_ids": [
+               12,
+               16,
+               35,
+               10751
+           ],
+           "id": 379686,
+           "original_language": "en",
+           "original_title": "Space Jam: A New Legacy",
+           "overview": "With the help of Bugs Bunny and the Looney Tunes, NBA superstar LeBron James must rescue his missing son by navigating through films in the Warner Bros. catalogue as they challenge against the villainous Al-G's plot to win a basketball game against his team of mates, which will be seen by the entire world.",
+           "popularity": 63.328,
+           "poster_path": "/boATtcBEjJF7z3HEyWCCpBqRDs4.jpg",
+           "release_date": "2021-07-14",
+           "title": "Space Jam: A New Legacy",
+           "video": false,
+           "vote_average": 0,
+           "vote_count": 0
+       },
+ 
         {
             "adult": false,
             "backdrop_path": "/vc5U3KhkLv68qvMASI5xpoHg4Ef.jpg",
@@ -210,6 +84,25 @@
                },
         {
                    "adult": false,
+                   "backdrop_path": "/mq8ecs9Ob5vr3TZHRE6k5Gn7AuJ.jpg",
+                   "genre_ids": [
+                       99,
+                       36
+                   ],
+                   "id": 803386,
+                   "original_language": "en",
+                   "original_title": "The Legend of King Kong",
+                   "overview": "witness the beginnings of The eighth wonder of the world!",
+                   "popularity": 17.86,
+                   "poster_path": "/niV9Fb1kYSWw9RlmvXmOPJECFv1.jpg",
+                   "release_date": "2021-09-20",
+                   "title": "The Legend of King Kong",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               }
+        {
+                   "adult": false,
                    "backdrop_path": null,
                    "genre_ids": [
                        28,
@@ -226,6 +119,61 @@
                    "video": false,
                    "vote_average": 0,
                    "vote_count": 0
+               },
+        {
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       99
+                   ],
+                   "id": 816564,
+                   "original_language": "en",
+                   "original_title": "I Am Gen Z",
+                   "overview": "Social media and big tech are the two most significant social experiments in history, and the youngest generations are their guinea pigs. When Steve Jobs presented the first iPhone in 2007, it was received with enthusiasm and high expectations for the future that we now live in. Generation Z was born at the same time as Apple’s invention and has grown up in a continually accelerating digital reality. We meet them on their home turf, namely on YouTube, TikTok and Instagram, in a thorough and far-reaching film, which lends a voice to both the youths and a selection of prominent experts and industry insiders. How do social media influence society and our self-perception and mental health? Big questions that are actually answered - also by the young - from all angles in a democratic film which will make you want to re-evaluate your screen habits. Whether you are Gen X or (gasp!) a Boomer, here is a chance to polish your knowledge about our brave new world.",
+                   "popularity": 2.842,
+                   "poster_path": "/jYObodutekGOhxqfxzCImzJ3sYX.jpg",
+                   "release_date": "2021-05-07",
+                   "title": "I Am Gen Z",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
+        {
+                   "adult": false,
+                   "backdrop_path": "/q23d2J5kg8SY4lLPnZ0GCMuv5e4.jpg",
+                   "genre_ids": [
+                       27
+                   ],
+                   "id": 818883,
+                   "original_language": "es",
+                   "original_title": "Divalo",
+                   "overview": "A young American nurse finds herself haunted by childhood trauma, when she is employed at a remote house to care for a sinister old man with psychic powers.",
+                   "popularity": 3.842,
+                   "poster_path": "/mlCFjz0tnuN8AWyuXjblvhvya1p.jpg",
+                   "release_date": "2021-05-07",
+                   "title": "The Devil's Child",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
+        {
+                   "adult": false,
+                   "backdrop_path": "/xVHUKMzmipbpTtkrFCr2vLDl89q.jpg",
+                   "genre_ids": [
+                       27,
+                       53
+                   ],
+                   "id": 534072,
+                   "original_language": "en",
+                   "original_title": "Great White",
+                   "overview": "What should have been a tourist trip to remember, quickly turns into a living nightmare when five passengers on a seaplane become stranded, miles away from shore. What follows is a desperate bid for survival as the group try to make it to land before they either run out of supplies or are taken by the man-eating sharks lurking just beneath the surface.",
+                   "popularity": 34.527,
+                   "poster_path": "/w9ynoNz5TBx6w9MMGZDf1U9LktU.jpg",
+                   "release_date": "2021-05-07",
+                   "title": "Great White",
+                   "video": false,
+                   "vote_average": 6.5,
+                   "vote_count": 4
                },
         {
                     "adult": false,
