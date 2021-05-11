@@ -1,6 +1,24 @@
 {
     "page": 319,
     "results": [
+        {
+                   "adult": false,
+                   "backdrop_path": null,
+                   "genre_ids": [
+                       99
+                   ],
+                   "id": 816564,
+                   "original_language": "en",
+                   "original_title": "I Am Gen Z",
+                   "overview": "Social media and big tech are the two most significant social experiments in history, and the youngest generations are their guinea pigs. When Steve Jobs presented the first iPhone in 2007, it was received with enthusiasm and high expectations for the future that we now live in. Generation Z was born at the same time as Apple’s invention and has grown up in a continually accelerating digital reality. We meet them on their home turf, namely on YouTube, TikTok and Instagram, in a thorough and far-reaching film, which lends a voice to both the youths and a selection of prominent experts and industry insiders. How do social media influence society and our self-perception and mental health? Big questions that are actually answered - also by the young - from all angles in a democratic film which will make you want to re-evaluate your screen habits. Whether you are Gen X or (gasp!) a Boomer, here is a chance to polish your knowledge about our brave new world.",
+                   "popularity": 2.842,
+                   "poster_path": "/jYObodutekGOhxqfxzCImzJ3sYX.jpg",
+                   "release_date": "2021-05-07",
+                   "title": "I Am Gen Z",
+                   "video": false,
+                   "vote_average": 0,
+                   "vote_count": 0
+               },
  {
             "adult": false,
             "backdrop_path": null,
@@ -120,24 +138,7 @@
                    "vote_average": 0,
                    "vote_count": 0
                },
-        {
-                   "adult": false,
-                   "backdrop_path": null,
-                   "genre_ids": [
-                       99
-                   ],
-                   "id": 816564,
-                   "original_language": "en",
-                   "original_title": "I Am Gen Z",
-                   "overview": "Social media and big tech are the two most significant social experiments in history, and the youngest generations are their guinea pigs. When Steve Jobs presented the first iPhone in 2007, it was received with enthusiasm and high expectations for the future that we now live in. Generation Z was born at the same time as Apple’s invention and has grown up in a continually accelerating digital reality. We meet them on their home turf, namely on YouTube, TikTok and Instagram, in a thorough and far-reaching film, which lends a voice to both the youths and a selection of prominent experts and industry insiders. How do social media influence society and our self-perception and mental health? Big questions that are actually answered - also by the young - from all angles in a democratic film which will make you want to re-evaluate your screen habits. Whether you are Gen X or (gasp!) a Boomer, here is a chance to polish your knowledge about our brave new world.",
-                   "popularity": 2.842,
-                   "poster_path": "/jYObodutekGOhxqfxzCImzJ3sYX.jpg",
-                   "release_date": "2021-05-07",
-                   "title": "I Am Gen Z",
-                   "video": false,
-                   "vote_average": 0,
-                   "vote_count": 0
-               },
+      
         {
                    "adult": false,
                    "backdrop_path": "/q23d2J5kg8SY4lLPnZ0GCMuv5e4.jpg",
