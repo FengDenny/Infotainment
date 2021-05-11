@@ -18,11 +18,25 @@ This project was created by Denny Feng in SwiftUI using TMDb API
 
 # Proposal
 
-## Features
+### Must Have Features
 
-- Show different views using TabView
-- ScrollView using VStack/HStack
-- TikTok like image view
-- Search functionality
+- Full image carousel view 
+<img src="https://user-images.githubusercontent.com/46504150/117415606-586d0300-aecd-11eb-8f3c-4b00bbb6fe38.png " alt="drawing" width="220" height="400"/>
+
+- Different TabViews
+<img src="https://user-images.githubusercontent.com/46504150/117417341-16dd5780-aecf-11eb-944c-38d70d0abac2.png " alt="drawing" width="400" height="400"/>
+
+- Movie/TV shows ScrollView using LazyHStack
+<img src="https://user-images.githubusercontent.com/46504150/117417974-c0bce400-aecf-11eb-94ef-b401b291e553.png" width="300" height="400"/>
+
+- Recommended TVShows ScrollView using LazyVStack
+<img src="https://user-images.githubusercontent.com/46504150/117418333-24dfa800-aed0-11eb-8a95-332259e28526.png" width="300" height="400"/>
+
 - Detail page view on shows and movies
+<img src="https://user-images.githubusercontent.com/46504150/117418995-ee565d00-aed0-11eb-9ad2-f2e00945e3d6.png" width="300" height="400"/>
+
+
+
+### Nice To Have Features
 - Watch shows/movies trailers using Safari
+- Search functionality
