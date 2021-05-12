@@ -35,8 +35,8 @@ This project was created by Denny Feng in SwiftUI using TMDb API
 - Detail page view on shows and movies
 <img src="https://user-images.githubusercontent.com/46504150/117418995-ee565d00-aed0-11eb-9ad2-f2e00945e3d6.png" width="300" height="400"/>
 
+- Watch shows/movies trailers using Safari
 
 
 ### Nice To Have Features
-- Watch shows/movies trailers using Safari
 - Search functionality
